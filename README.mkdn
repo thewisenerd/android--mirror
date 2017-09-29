@@ -9,7 +9,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 **only use the below command to initialize the repo. I do not know what happens
 when you do not use mirror and repo sync with default revision
-reading ```refs/heads/*```.***
+reading ```refs/heads/*```.**
 
 To initialize your local mirror using the LineageOS trees, use a command like this:
 
