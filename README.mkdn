@@ -27,3 +27,30 @@ branches
  - cm-13.0
  - cm-14.1
  - lineage-15.0
+
+misc
+----
+
+know what you're doing. total bandwidth required is around 70 gigabytes
+( as synced on 2017-09-29 ). `find . -type f | xargs du -h | sort -h -r | head -n 20`
+
+    4.9G    ./platform/prebuilts/qemu-kernel.git/objects/pack/pack-60d2f6c0c874e48f712763827339649e05830c60.pack
+    4.5G    ./platform/prebuilts/sdk.git/objects/pack/pack-386222cb9630a83a943f2058f83837c661031bf9.pack
+    4.0G    ./platform/external/chromium-webview.git/objects/pack/pack-de0fda43f99370d63eecc4bae061fd78fbccc588.pack
+    3.6G    ./platform/tools/external/gradle.git/objects/pack/pack-8f833c205d4d0bc7033aa32b0bc5417c7167eda4.pack
+    2.7G    ./LineageOS/android_external_chromium-webview.git/objects/pack/pack-8c422f058b361c5b7048c160bb43564df4b402c7.pack
+    2.3G    ./platform/prebuilts/tools.git/objects/pack/pack-9e24671bffbf80d5657fedc469b77cfedb960431.pack
+    2.3G    ./platform/prebuilts/ndk.git/objects/pack/pack-8cf30ba30341bb6e23fc9f67c0c17e35d5496136.pack
+    2.3G    ./LineageOS/android_frameworks_base.git/objects/pack/pack-96c28527eed878d73339c994514e9f969ee91026.pack
+    2.1G    ./platform/prebuilts/gradle-plugin.git/objects/pack/pack-e76e15ba69249dc1632c4c36491ca1dc8cd932b8.pack
+    1.9G    ./LineageOS/android_prebuilt.git/objects/pack/pack-9ac22ed8b052281de1888a554d7f69317946143c.pack
+    1.9G    ./LineageOS/android_external_chromium_org.git/objects/pack/pack-6018bf795509816701f2dba4b035fd1903a69a68.pack
+    1.4G    ./platform/tools/idea.git/objects/pack/pack-6a0fe19061ecaae7cc12795f8648e6f11e601d85.pack
+    1.3G    ./platform/prebuilts/android-emulator.git/objects/pack/pack-f60ff55f2a0a1cae50a355ad138b3fd4fc05be52.pack
+    1.2G    ./platform/prebuilts/eclipse-build-deps.git/objects/pack/pack-38c2729689592b8aaf81952fac3245630985b4a7.pack
+    1.2G    ./platform/cts.git/objects/pack/pack-a71277979f160096809490e8e3295ca623a2e2be.pack
+    1.1G    ./platform/prebuilts/clang/host/linux-x86.git/objects/pack/pack-72a066cf8228d049e710eb51e3f25d68033d4481.pack
+    975M    ./platform/external/linux-kselftest.git/objects/pack/pack-0fb55a5bbfc39343d8181f676b03dd7e75f9a7ca.pack
+    904M    ./LineageOS/android_packages_apps_Settings.git/objects/pack/pack-99a5d23c48341b22e5b0ed3ead11ece74d4f43a9.pack
+    895M    ./platform/tools/base.git/objects/pack/pack-4ff41cd94ccb0463eb785b1fac2a630d895748db.pack
+    819M    ./platform/prebuilts/misc.git/objects/pack/pack-bf15ed98044a7aac82bc712e7394347fe7c90cdf.pack
