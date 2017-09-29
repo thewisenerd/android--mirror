@@ -25,7 +25,6 @@
 <project name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
 <project name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
 <project name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-<project name="device/generic/qemu" remote="aosp" />
 <project name="device/generic/qemu" groups="pdk" remote="aosp" />
 <project name="device/generic/x86_64" groups="pdk" remote="aosp" />
 <project name="device/generic/x86" groups="pdk" remote="aosp" />
