@@ -28,6 +28,12 @@ branches
  - cm-14.1
  - lineage-15.0
 
+updating
+--------
+
+fork this repository; run `scripts/generate.sh`; and push back. maybe send back
+a pull request, that i'll be happy to merge :)
+
 misc
 ----
 
