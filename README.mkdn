@@ -19,3 +19,11 @@ Then to sync up:
 
     repo sync
 
+branches
+--------
+
+ - cm-11.0
+ - cm-12.1
+ - cm-13.0
+ - cm-14.1
+ - lineage-15.0
