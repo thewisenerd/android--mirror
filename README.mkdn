@@ -1,0 +1,21 @@
+LineageOS--mirror
+=================
+
+Getting Started
+---------------
+
+To get started with Android/LineageOS, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+**only use the below command to initialize the repo. I do not know what happens
+when you do not use mirror and repo sync with default revision
+reading ```refs/heads/*```.***
+
+To initialize your local mirror using the LineageOS trees, use a command like this:
+
+    repo init -u https://github.com/thewisenerd/android--mirror.git --mirror
+
+Then to sync up:
+
+    repo sync
+
