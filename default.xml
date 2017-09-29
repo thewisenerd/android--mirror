@@ -489,7 +489,6 @@
 <project name="platform/prebuilts/devtools" remote="aosp" />
 <project name="platform/prebuilts/eclipse" remote="aosp" />
 <project name="platform/prebuilts/eclipse-build-deps" remote="aosp" />
-<project name="platform/prebuilts/eclipse-build-depsgithub" remote="aosp" />
 <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" />
 <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
 <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" />
