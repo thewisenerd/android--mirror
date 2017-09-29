@@ -13,89 +13,70 @@
            sync-j="4" />
 
 
-<project name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
-<project name="device/generic/arm64" groups="pdk" remote="aosp" />
-<project name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
-<project name="device/generic/car" groups="pdk" remote="aosp" />
-<project name="device/generic/common" groups="pdk" remote="aosp" />
-<project name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
-<project name="device/generic/goldfish" groups="pdk" remote="aosp" />
-<project name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
-<project name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-<project name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
-<project name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
-<project name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-<project name="device/generic/qemu" groups="pdk" remote="aosp" />
-<project name="device/generic/x86_64" groups="pdk" remote="aosp" />
-<project name="device/generic/x86" groups="pdk" remote="aosp" />
-<project name="device/google/accessory/arduino" groups="device" remote="aosp" />
-<project name="device/google/accessory/demokit" groups="device" remote="aosp" />
-<project name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" remote="aosp" />
-<project name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
-<project name="device/sample" groups="pdk" remote="aosp" />
+<project name="device/common" remote="aosp" />
+<project name="device/generic/arm64" remote="aosp" />
+<project name="device/generic/armv7-a-neon" remote="aosp" />
+<project name="device/generic/car" remote="aosp" />
+<project name="device/generic/common" remote="aosp" />
+<project name="device/generic/goldfish" remote="aosp" />
+<project name="device/generic/goldfish-opengl" remote="aosp" />
+<project name="device/generic/mini-emulator-arm64" remote="aosp" />
+<project name="device/generic/mini-emulator-armv7-a-neon" remote="aosp" />
+<project name="device/generic/mini-emulator-mips" remote="aosp" />
+<project name="device/generic/mini-emulator-x86" remote="aosp" />
+<project name="device/generic/mini-emulator-x86_64" remote="aosp" />
+<project name="device/generic/qemu" remote="aosp" />
+<project name="device/generic/x86" remote="aosp" />
+<project name="device/generic/x86_64" remote="aosp" />
+<project name="device/google/accessory/arduino" remote="aosp" />
+<project name="device/google/accessory/demokit" remote="aosp" />
+<project name="device/google/atv" remote="aosp" />
+<project name="device/google/contexthub" remote="aosp" />
+<project name="device/sample" remote="aosp" />
 <project name="kernel/tests" remote="aosp" />
-<project name="platform/abi/cpp" groups="pdk" remote="aosp" />
-<project name="platform/art" groups="pdk" remote="aosp" />
-<project name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-<project name="platform/build/soong" groups="pdk,tradefed" remote="aosp" />
-<project name="platform/cts" groups="cts" remote="aosp" />
-<project name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+<project name="platform/abi/cpp" remote="aosp" />
+<project name="platform/art" remote="aosp" />
+<project name="platform/build/blueprint" remote="aosp" />
+<project name="platform/build/soong" remote="aosp" />
+<project name="platform/cts" remote="aosp" />
+<project name="platform/dalvik" remote="aosp" />
 <project name="platform/developers/build" remote="aosp" />
 <project name="platform/developers/demos" remote="aosp" />
 <project name="platform/developers/docs" remote="aosp" />
 <project name="platform/developers/samples/android" remote="aosp" />
 <project name="platform/docs/source.android.com" remote="aosp" />
-<project name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/aac" groups="pdk" remote="aosp" />
-<project name="platform/external/abi-compliance-checker" groups="pdk" remote="aosp" />
-<project name="platform/external/abi-dumper" groups="pdk" remote="aosp" />
-<project name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
-<project name="platform/external/android-clat" groups="pdk" remote="aosp" />
-<project name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/android-mock" groups="pdk" remote="aosp" />
-<project name="platform/external/androidplot" groups="pdk" remote="aosp" />
-<project name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/ant-glob" groups="pdk" remote="aosp" />
-<project name="platform/external/antlr" groups="pdk" remote="aosp" />
-<project name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/antlr" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/apache-commons-math" groups="pdk" remote="aosp" />
-<project name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/apache-harmony" groups="pdk" remote="aosp" />
-<project name="platform/external/apache-harmony" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/apache-http" groups="pdk" remote="aosp" />
-<project name="platform/external/apache-http" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/apache-qp" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/apache-xml" groups="pdk" remote="aosp" />
-<project name="platform/external/apache-xml" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/archive-patcher" groups="pdk" remote="aosp" />
-<project name="platform/external/arduino" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/arm-neon-tests" groups="vendor" remote="aosp" />
-<project name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/avahi" groups="pdk" remote="aosp" />
-<project name="platform/external/avb" groups="pdk" remote="aosp" />
-<project name="platform/external/bison" groups="pdk" remote="aosp" />
-<project name="platform/external/blktrace" groups="pdk" remote="aosp" />
-<project name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/boringssl" groups="pdk" remote="aosp" />
-<project name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
-<project name="platform/external/bsdiff" groups="pdk" remote="aosp" />
-<project name="platform/external/bzip2" groups="pdk" remote="aosp" />
-<project name="platform/external/caliper" groups="pdk" remote="aosp" />
-<project name="platform/external/c-ares" groups="pdk" remote="aosp" />
-<project name="platform/external/cblas" groups="pdk" remote="aosp" />
+<project name="platform/external/aac" remote="aosp" />
+<project name="platform/external/abi-compliance-checker" remote="aosp" />
+<project name="platform/external/abi-dumper" remote="aosp" />
+<project name="platform/external/adt-infra" remote="aosp" />
+<project name="platform/external/android-clat" remote="aosp" />
+<project name="platform/external/android-mock" remote="aosp" />
+<project name="platform/external/androidplot" remote="aosp" />
+<project name="platform/external/ant-glob" remote="aosp" />
+<project name="platform/external/antlr" remote="aosp" />
+<project name="platform/external/apache-commons-math" remote="aosp" />
+<project name="platform/external/apache-harmony" remote="aosp" />
+<project name="platform/external/apache-http" remote="aosp" />
+<project name="platform/external/apache-qp" remote="aosp" />
+<project name="platform/external/apache-xml" remote="aosp" />
+<project name="platform/external/archive-patcher" remote="aosp" />
+<project name="platform/external/arduino" remote="aosp" />
+<project name="platform/external/arm-neon-tests" remote="aosp" />
+<project name="platform/external/autotest" remote="aosp" />
+<project name="platform/external/avahi" remote="aosp" />
+<project name="platform/external/avb" remote="aosp" />
+<project name="platform/external/bison" remote="aosp" />
+<project name="platform/external/blktrace" remote="aosp" />
+<project name="platform/external/boringssl" remote="aosp" />
+<project name="platform/external/bouncycastle" remote="aosp" />
+<project name="platform/external/bsdiff" remote="aosp" />
+<project name="platform/external/bzip2" remote="aosp" />
+<project name="platform/external/caliper" remote="aosp" />
+<project name="platform/external/c-ares" remote="aosp" />
+<project name="platform/external/cblas" remote="aosp" />
 <project name="platform/external/ceres-solver" remote="aosp" />
-<project name="platform/external/ceres-solver" groups="pdk" remote="aosp" />
-<project name="platform/external/ceres-solver" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
+<project name="platform/external/checkpolicy" remote="aosp" />
 <project name="platform/external/chromium-libpac" remote="aosp" />
-<project name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
-<project name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
 <project name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
 <project name="platform/external/chromium_org/testing/gtest" remote="aosp" />
 <project name="platform/external/chromium_org/third_party/angle" remote="aosp" />
@@ -129,963 +110,684 @@
 <project name="platform/external/chromium_org/tools/grit" remote="aosp" />
 <project name="platform/external/chromium_org/tools/gyp" remote="aosp" />
 <project name="platform/external/chromium_org/v8" remote="aosp" />
-<project name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-<project name="platform/external/chromium-webview" groups="pdk" remote="aosp" />
-<project name="platform/external/clang" groups="pdk" remote="aosp" />
+<project name="platform/external/chromium-trace" remote="aosp" />
+<project name="platform/external/chromium-webview" remote="aosp" />
+<project name="platform/external/clang" remote="aosp" />
 <project name="platform/external/cmockery" remote="aosp" />
-<project name="platform/external/cmockery" groups="pdk" remote="aosp" />
-<project name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
-<project name="platform/external/conscrypt" groups="pdk" remote="aosp" />
-<project name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/crcalc" groups="pdk" remote="aosp" />
-<project name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
-<project name="platform/external/curl" groups="pdk" remote="aosp" />
-<project name="platform/external/dagger2" groups="pdk" remote="aosp" />
-<project name="platform/external/dbus-binding-generator" groups="pdk" remote="aosp" />
-<project name="platform/external/dbus" groups="pdk" remote="aosp" />
+<project name="platform/external/compiler-rt" remote="aosp" />
+<project name="platform/external/conscrypt" remote="aosp" />
+<project name="platform/external/crcalc" remote="aosp" />
+<project name="platform/external/cros/system_api" remote="aosp" />
+<project name="platform/external/curl" remote="aosp" />
+<project name="platform/external/dagger2" remote="aosp" />
+<project name="platform/external/dbus" remote="aosp" />
+<project name="platform/external/dbus-binding-generator" remote="aosp" />
 <project name="platform/external/deqp" remote="aosp" />
-<project name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/desugar" groups="pdk" remote="aosp" />
-<project name="platform/external/dexmaker" groups="pdk" remote="aosp" />
-<project name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/dhcpcd-6.8.2" groups="pdk" remote="aosp" />
-<project name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
-<project name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
-<project name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
-<project name="platform/external/doclava" groups="pdk" remote="aosp" />
-<project name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/donuts" groups="pdk" remote="aosp" />
-<project name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
-<project name="platform/external/drm_gralloc" groups="drm_gralloc,pdk-fs" remote="aosp" />
-<project name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
-<project name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
+<project name="platform/external/desugar" remote="aosp" />
+<project name="platform/external/dexmaker" remote="aosp" />
+<project name="platform/external/dhcpcd-6.8.2" remote="aosp" />
+<project name="platform/external/dlmalloc" remote="aosp" />
+<project name="platform/external/dng_sdk" remote="aosp" />
+<project name="platform/external/dnsmasq" remote="aosp" />
+<project name="platform/external/doclava" remote="aosp" />
+<project name="platform/external/donuts" remote="aosp" />
+<project name="platform/external/drm_gralloc" remote="aosp" />
+<project name="platform/external/drm_hwcomposer" remote="aosp" />
 <project name="platform/external/droiddriver" remote="aosp" />
-<project name="platform/external/droiddriver" groups="pdk" remote="aosp" />
-<project name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/dtc" groups="pdk" remote="aosp" />
-<project name="platform/external/easymock" groups="pdk" remote="aosp" />
-<project name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/easymock" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/eclipse-windowbuilder" groups="pdk" remote="aosp" />
-<project name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/eigen" groups="pdk" remote="aosp" />
-<project name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/elfutils" groups="pdk" remote="aosp" />
-<project name="platform/external/embunit" groups="pdk" remote="aosp" />
-<project name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/emma" groups="pdk" remote="aosp" />
-<project name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/esd" groups="pdk" remote="aosp" />
-<project name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/esd" groups="pdk-cw-fw" remote="aosp" />
-<project name="platform/external/expat" groups="pdk" remote="aosp" />
-<project name="platform/external/eyes-free" groups="pdk" remote="aosp" />
-<project name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" />
-<project name="platform/external/fdlibm" groups="pdk" remote="aosp" />
-<project name="platform/external/fec" groups="pdk" remote="aosp" />
+<project name="platform/external/dtc" remote="aosp" />
+<project name="platform/external/easymock" remote="aosp" />
+<project name="platform/external/eclipse-basebuilder" remote="aosp" />
+<project name="platform/external/eclipse-windowbuilder" remote="aosp" />
+<project name="platform/external/eigen" remote="aosp" />
+<project name="platform/external/elfutils" remote="aosp" />
+<project name="platform/external/embunit" remote="aosp" />
+<project name="platform/external/emma" remote="aosp" />
+<project name="platform/external/esd" remote="aosp" />
+<project name="platform/external/expat" remote="aosp" />
+<project name="platform/external/eyes-free" remote="aosp" />
+<project name="platform/external/fdlibm" remote="aosp" />
+<project name="platform/external/fec" remote="aosp" />
 <project name="platform/external/fio" remote="aosp" />
-<project name="platform/external/fio" groups="pdk" remote="aosp" />
-<project name="platform/external/fio" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/flac" groups="pdk" remote="aosp" />
-<project name="platform/external/flatbuffers" groups="pdk" remote="aosp" />
-<project name="platform/external/fmtlib" groups="pdk" remote="aosp" />
+<project name="platform/external/flac" remote="aosp" />
+<project name="platform/external/flatbuffers" remote="aosp" />
+<project name="platform/external/fmtlib" remote="aosp" />
 <project name="platform/external/fonttools" remote="aosp" />
-<project name="platform/external/fonttools" groups="pdk" remote="aosp" />
-<project name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/freetype" groups="pdk" remote="aosp" />
-<project name="platform/external/fsck_msdos" groups="pdk" remote="aosp" />
-<project name="platform/external/gcc-demangle" groups="pdk" remote="aosp" />
-<project name="platform/external/gemmlowp" groups="pdk" remote="aosp" />
-<project name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
+<project name="platform/external/freetype" remote="aosp" />
+<project name="platform/external/fsck_msdos" remote="aosp" />
+<project name="platform/external/gcc-demangle" remote="aosp" />
+<project name="platform/external/gemmlowp" remote="aosp" />
+<project name="platform/external/genext2fs" remote="aosp" />
+<project name="platform/external/giflib" remote="aosp" />
 <project name="platform/external/glide" remote="aosp" />
-<project name="platform/external/glide" groups="pdk" remote="aosp" />
-<project name="platform/external/glide" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/gmock" groups="pdk" remote="aosp" />
-<project name="platform/external/google-benchmark" groups="pdk" remote="aosp" />
-<project name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
-<project name="platform/external/google-breakpad" groups="dragon,pdk-fs" remote="aosp" />
-<project name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk" remote="aosp" />
-<project name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/google-fonts/coming-soon" groups="pdk" remote="aosp" />
-<project name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/google-fonts/cutive-mono" groups="pdk" remote="aosp" />
-<project name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/google-fonts/dancing-script" groups="pdk" remote="aosp" />
-<project name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/googletest" groups="pdk" remote="aosp" />
+<project name="platform/external/gmock" remote="aosp" />
+<project name="platform/external/google-benchmark" remote="aosp" />
+<project name="platform/external/google-breakpad" remote="aosp" />
+<project name="platform/external/google-diff-match-patch" remote="aosp" />
+<project name="platform/external/google-fonts/carrois-gothic-sc" remote="aosp" />
+<project name="platform/external/google-fonts/coming-soon" remote="aosp" />
+<project name="platform/external/google-fonts/cutive-mono" remote="aosp" />
+<project name="platform/external/google-fonts/dancing-script" remote="aosp" />
+<project name="platform/external/googletest" remote="aosp" />
 <project name="platform/external/google-tv-pairing-protocol" remote="aosp" />
-<project name="platform/external/google-tv-pairing-protocol" groups="pdk" remote="aosp" />
-<project name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/gtest" groups="pdk" remote="aosp" />
-<project name="platform/external/guava" groups="pdk" remote="aosp" />
-<project name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/guice" groups="pdk" remote="aosp" />
-<project name="platform/external/hamcrest" groups="pdk" remote="aosp" />
-<project name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" />
+<project name="platform/external/gtest" remote="aosp" />
+<project name="platform/external/guava" remote="aosp" />
+<project name="platform/external/guice" remote="aosp" />
+<project name="platform/external/hamcrest" remote="aosp" />
 <project name="platform/external/harfbuzz_ng" remote="aosp" />
-<project name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
-<project name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/icu" groups="pdk" remote="aosp" />
-<project name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
-<project name="platform/external/ims" groups="pdk" remote="aosp" />
-<project name="platform/external/iproute2" groups="pdk" remote="aosp" />
-<project name="platform/external/ipsec-tools" groups="pdk" remote="aosp" />
-<project name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/iptables" groups="pdk" remote="aosp" />
+<project name="platform/external/hyphenation-patterns" remote="aosp" />
+<project name="platform/external/icu" remote="aosp" />
+<project name="platform/external/ImageMagick" remote="aosp" />
+<project name="platform/external/ims" remote="aosp" />
+<project name="platform/external/iproute2" remote="aosp" />
+<project name="platform/external/ipsec-tools" remote="aosp" />
+<project name="platform/external/iptables" remote="aosp" />
 <project name="platform/external/iputils" remote="aosp" />
-<project name="platform/external/iputils" groups="pdk" remote="aosp" />
-<project name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/iw" groups="pdk" remote="aosp" />
-<project name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/jacoco" groups="pdk" remote="aosp" />
-<project name="platform/external/jarjar" groups="pdk" remote="aosp" />
-<project name="platform/external/javasqlite" groups="pdk" remote="aosp" />
-<project name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/javassist" groups="pdk" remote="aosp" />
-<project name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jcommander" groups="pdk" remote="aosp" />
-<project name="platform/external/jdiff" groups="pdk" remote="aosp" />
-<project name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jemalloc" groups="pdk" remote="aosp" />
-<project name="platform/external/jetty" groups="pdk" remote="aosp" />
-<project name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/jhead" groups="pdk" remote="aosp" />
-<project name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
-<project name="platform/external/jline" groups="notdefault,tradefed,pdk-fs" remote="aosp" />
-<project name="platform/external/jline" groups="pdk,tradefed,pdk-fs" remote="aosp" />
-<project name="platform/external/jmdns" groups="pdk" remote="aosp" />
-<project name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jmonkeyengine" groups="pdk" remote="aosp" />
-<project name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jsilver" groups="pdk" remote="aosp" />
-<project name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/jsmn" groups="pdk" remote="aosp" />
-<project name="platform/external/jsoncpp" groups="pdk" remote="aosp" />
-<project name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/jsr305" groups="pdk" remote="aosp" />
-<project name="platform/external/jsr330" groups="pdk" remote="aosp" />
-<project name="platform/external/junit-params" groups="pdk" remote="aosp" />
-<project name="platform/external/junit" groups="pdk" remote="aosp" />
-<project name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/junit" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/kernel-headers" groups="pdk" remote="aosp" />
-<project name="platform/external/kernel-headers" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/kmod" groups="pdk" remote="aosp" />
-<project name="platform/external/ksoap2" groups="pdk" remote="aosp" />
-<project name="platform/external/ksoap2" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libavc" groups="pdk" remote="aosp" />
-<project name="platform/external/libbrillo" groups="pdk" remote="aosp" />
-<project name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
-<project name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libcap" groups="pdk" remote="aosp" />
-<project name="platform/external/libchrome" groups="pdk" remote="aosp" />
-<project name="platform/external/libconstrainedcrypto" groups="pdk" remote="aosp" />
-<project name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
-<project name="platform/external/libcxx" groups="pdk" remote="aosp" />
-<project name="platform/external/libdaemon" groups="pdk" remote="aosp" />
-<project name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
-<project name="platform/external/libdrm" groups="pdk" remote="aosp" />
+<project name="platform/external/iw" remote="aosp" />
+<project name="platform/external/jack" remote="aosp" />
+<project name="platform/external/jacoco" remote="aosp" />
+<project name="platform/external/jarjar" remote="aosp" />
+<project name="platform/external/javasqlite" remote="aosp" />
+<project name="platform/external/javassist" remote="aosp" />
+<project name="platform/external/jcommander" remote="aosp" />
+<project name="platform/external/jdiff" remote="aosp" />
+<project name="platform/external/jemalloc" remote="aosp" />
+<project name="platform/external/jetty" remote="aosp" />
+<project name="platform/external/jhead" remote="aosp" />
+<project name="platform/external/jline" remote="aosp" />
+<project name="platform/external/jmdns" remote="aosp" />
+<project name="platform/external/jmonkeyengine" remote="aosp" />
+<project name="platform/external/jsilver" remote="aosp" />
+<project name="platform/external/jsmn" remote="aosp" />
+<project name="platform/external/jsoncpp" remote="aosp" />
+<project name="platform/external/jsr305" remote="aosp" />
+<project name="platform/external/jsr330" remote="aosp" />
+<project name="platform/external/junit" remote="aosp" />
+<project name="platform/external/junit-params" remote="aosp" />
+<project name="platform/external/kernel-headers" remote="aosp" />
+<project name="platform/external/kmod" remote="aosp" />
+<project name="platform/external/ksoap2" remote="aosp" />
+<project name="platform/external/libavc" remote="aosp" />
+<project name="platform/external/libbrillo" remote="aosp" />
+<project name="platform/external/libcap" remote="aosp" />
+<project name="platform/external/libcap-ng" remote="aosp" />
+<project name="platform/external/libchrome" remote="aosp" />
+<project name="platform/external/libconstrainedcrypto" remote="aosp" />
+<project name="platform/external/libcups" remote="aosp" />
+<project name="platform/external/libcxx" remote="aosp" />
+<project name="platform/external/libcxxabi" remote="aosp" />
+<project name="platform/external/libdaemon" remote="aosp" />
+<project name="platform/external/libdivsufsort" remote="aosp" />
+<project name="platform/external/libdrm" remote="aosp" />
 <project name="platform/external/libedit" remote="aosp" />
-<project name="platform/external/libedit" groups="pdk" remote="aosp" />
-<project name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/libese" groups="pdk" remote="aosp" />
-<project name="platform/external/libevent" groups="pdk" remote="aosp" />
+<project name="platform/external/libese" remote="aosp" />
+<project name="platform/external/libevent" remote="aosp" />
 <project name="platform/external/libexif" remote="aosp" />
-<project name="platform/external/libexif" groups="pdk" remote="aosp" />
-<project name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libgdx" groups="pdk" remote="aosp" />
-<project name="platform/external/libgsm" groups="pdk" remote="aosp" />
+<project name="platform/external/libgdx" remote="aosp" />
+<project name="platform/external/libgsm" remote="aosp" />
 <project name="platform/external/libhevc" remote="aosp" />
-<project name="platform/external/libhevc" groups="pdk" remote="aosp" />
-<project name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
-<project name="platform/external/libldac" groups="pdk" remote="aosp" />
-<project name="platform/external/liblzf" groups="pdk" remote="aosp" />
-<project name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
-<project name="platform/external/libmojo" groups="pdk" remote="aosp" />
-<project name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
-<project name="platform/external/libmtp" groups="pdk" remote="aosp" />
-<project name="platform/external/libmtp" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libnl" groups="pdk" remote="aosp" />
-<project name="platform/external/libogg" groups="pdk" remote="aosp" />
-<project name="platform/external/libopus" groups="pdk" remote="aosp" />
-<project name="platform/external/libpcap" groups="pdk" remote="aosp" />
-<project name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
-<project name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libpng" groups="pdk" remote="aosp" />
-<project name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
+<project name="platform/external/libjpeg-turbo" remote="aosp" />
+<project name="platform/external/libldac" remote="aosp" />
+<project name="platform/external/liblzf" remote="aosp" />
+<project name="platform/external/libmicrohttpd" remote="aosp" />
+<project name="platform/external/libmojo" remote="aosp" />
+<project name="platform/external/libmpeg2" remote="aosp" />
+<project name="platform/external/libmtp" remote="aosp" />
+<project name="platform/external/libnl" remote="aosp" />
+<project name="platform/external/libogg" remote="aosp" />
+<project name="platform/external/libopus" remote="aosp" />
+<project name="platform/external/libpcap" remote="aosp" />
+<project name="platform/external/libphonenumber" remote="aosp" />
+<project name="platform/external/libpng" remote="aosp" />
+<project name="platform/external/libseccomp-helper" remote="aosp" />
 <project name="platform/external/libssh2" remote="aosp" />
-<project name="platform/external/libtextclassifier" groups="pdk" remote="aosp" />
-<project name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
-<project name="platform/external/libunwind" groups="pdk" remote="aosp" />
-<project name="platform/external/libusb-compat" groups="pdk" remote="aosp" />
-<project name="platform/external/libusb-compat" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libusb" groups="pdk" remote="aosp" />
-<project name="platform/external/libusb" groups="pdk-cw-fs,pdk" remote="aosp" />
-<project name="platform/external/libutf" groups="pdk" remote="aosp" />
-<project name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libvncserver" groups="pdk" remote="aosp" />
-<project name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libvorbis" groups="pdk" remote="aosp" />
-<project name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libvpx" groups="pdk" remote="aosp" />
-<project name="platform/external/libvterm" groups="pdk" remote="aosp" />
-<project name="platform/external/libweave" groups="pdk" remote="aosp" />
-<project name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
-<project name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" />
-<project name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
-<project name="platform/external/linux-kselftest" groups="vts,pdk" remote="aosp" />
-<project name="platform/external/littlemock" groups="pdk" remote="aosp" />
-<project name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/lld" groups="pdk" remote="aosp" />
-<project name="platform/external/lld" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/llvm" groups="pdk" remote="aosp" />
+<project name="platform/external/libtextclassifier" remote="aosp" />
+<project name="platform/external/libunwind" remote="aosp" />
+<project name="platform/external/libunwind_llvm" remote="aosp" />
+<project name="platform/external/libusb" remote="aosp" />
+<project name="platform/external/libusb-compat" remote="aosp" />
+<project name="platform/external/libutf" remote="aosp" />
+<project name="platform/external/libvncserver" remote="aosp" />
+<project name="platform/external/libvorbis" remote="aosp" />
+<project name="platform/external/libvpx" remote="aosp" />
+<project name="platform/external/libvterm" remote="aosp" />
+<project name="platform/external/libweave" remote="aosp" />
+<project name="platform/external/libxml2" remote="aosp" />
+<project name="platform/external/libyuv" remote="aosp" />
+<project name="platform/external/linux-kselftest" remote="aosp" />
+<project name="platform/external/littlemock" remote="aosp" />
+<project name="platform/external/lld" remote="aosp" />
+<project name="platform/external/lldb" remote="aosp" />
+<project name="platform/external/llvm" remote="aosp" />
+<project name="platform/external/llvmgithub" remote="aosp" />
 <project name="platform/external/lohit-fonts" remote="aosp" />
-<project name="platform/external/ltp" groups="vts,pdk" remote="aosp" />
-<project name="platform/external/ltrace" groups="pdk" remote="aosp" />
-<project name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/lz4" groups="pdk" remote="aosp" />
+<project name="platform/external/ltp" remote="aosp" />
+<project name="platform/external/ltrace" remote="aosp" />
+<project name="platform/external/lz4" remote="aosp" />
 <project name="platform/external/lzma" remote="aosp" />
-<project name="platform/external/lzma" groups="pdk" remote="aosp" />
 <project name="platform/external/marisa-trie" remote="aosp" />
-<project name="platform/external/marisa-trie" groups="pdk" remote="aosp" />
-<project name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/markdown" groups="pdk" remote="aosp" />
-<project name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
+<project name="platform/external/markdown" remote="aosp" />
+<project name="platform/external/mdnsresponder" remote="aosp" />
 <project name="platform/external/mesa3d" remote="aosp" />
-<project name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/messageformat" groups="pdk" remote="aosp" />
-<project name="platform/external/messageformat" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/Microsoft-GSL" groups="pdk" remote="aosp" />
-<project name="platform/external/minijail" groups="pdk" remote="aosp" />
-<project name="platform/external/mmc-utils" groups="pdk" remote="aosp" />
-<project name="platform/external/mockftpserver" groups="pdk" remote="aosp" />
-<project name="platform/external/mockftpserver" groups="pdk-fs" remote="aosp" />
+<project name="platform/external/messageformat" remote="aosp" />
+<project name="platform/external/Microsoft-GSL" remote="aosp" />
+<project name="platform/external/minijail" remote="aosp" />
+<project name="platform/external/mmc-utils" remote="aosp" />
+<project name="platform/external/mockftpserver" remote="aosp" />
 <project name="platform/external/mockito" remote="aosp" />
-<project name="platform/external/mockito" groups="pdk" remote="aosp" />
-<project name="platform/external/mockito" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
-<project name="platform/external/mockwebserver" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/mockwebserver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/modp_b64" groups="pdk" remote="aosp" />
-<project name="platform/external/mp4parser" groups="pdk" remote="aosp" />
-<project name="platform/external/mp4parser" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/mp4parser" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/mtpd" groups="pdk" remote="aosp" />
-<project name="platform/external/mtpd" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/mtpd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+<project name="platform/external/mockwebserver" remote="aosp" />
+<project name="platform/external/modp_b64" remote="aosp" />
+<project name="platform/external/mp4parser" remote="aosp" />
+<project name="platform/external/mtpd" remote="aosp" />
 <project name="platform/external/nanohttpd" remote="aosp" />
-<project name="platform/external/nanohttpd" groups="pdk" remote="aosp" />
-<project name="platform/external/nanohttpd" groups="pdk-fs" remote="aosp" />
 <project name="platform/external/nanopb-c" remote="aosp" />
-<project name="platform/external/nanopb-c" groups="pdk" remote="aosp" />
-<project name="platform/external/naver-fonts" groups="pdk" remote="aosp" />
-<project name="platform/external/naver-fonts" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/naver-fonts" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/netcat" groups="pdk" remote="aosp" />
-<project name="platform/external/netcat" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/netcat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/netperf" groups="pdk" remote="aosp" />
-<project name="platform/external/netperf" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/netperf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/neven" groups="pdk" remote="aosp" />
-<project name="platform/external/neven" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/neven" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/nfacct" groups="pdk" remote="aosp" />
-<project name="platform/external/nfacct" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/nfacct" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+<project name="platform/external/naver-fonts" remote="aosp" />
+<project name="platform/external/netcat" remote="aosp" />
+<project name="platform/external/netperf" remote="aosp" />
+<project name="platform/external/neven" remote="aosp" />
+<project name="platform/external/nfacct" remote="aosp" />
 <project name="platform/external/nist-pkits" remote="aosp" />
-<project name="platform/external/nist-pkits" groups="pdk" remote="aosp" />
-<project name="platform/external/nist-pkits" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/nist-sip" groups="pdk" remote="aosp" />
+<project name="platform/external/nist-sip" remote="aosp" />
 <project name="platform/external/noto-fonts" remote="aosp" />
-<project name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
-<project name="platform/external/oauth" groups="pdk" remote="aosp" />
-<project name="platform/external/oauth" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+<project name="platform/external/oauth" remote="aosp" />
 <project name="platform/external/objenesis" remote="aosp" />
-<project name="platform/external/objenesis" groups="pdk" remote="aosp" />
-<project name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/okhttp" groups="pdk" remote="aosp" />
-<project name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/openfst" groups="pdk" remote="aosp" />
-<project name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/openssh" groups="pdk" remote="aosp" />
+<project name="platform/external/okhttp" remote="aosp" />
+<project name="platform/external/opencv" remote="aosp" />
+<project name="platform/external/openfst" remote="aosp" />
+<project name="platform/external/openssh" remote="aosp" />
 <project name="platform/external/open-vcdiff" remote="aosp" />
-<project name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
+<project name="platform/external/oprofile" remote="aosp" />
 <project name="platform/external/owasp/sanitizer" remote="aosp" />
-<project name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
-<project name="platform/external/owasp/sanitizer" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
-<project name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
-<project name="platform/external/pcre" groups="pdk" remote="aosp" />
-<project name="platform/external/pdfium" groups="pdk" remote="aosp" />
-<project name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/piex" groups="pdk" remote="aosp" />
+<project name="platform/external/parameter-framework" remote="aosp" />
+<project name="platform/external/pcre" remote="aosp" />
+<project name="platform/external/pdfium" remote="aosp" />
+<project name="platform/external/piex" remote="aosp" />
 <project name="platform/external/pixman" remote="aosp" />
-<project name="platform/external/ppp" groups="pdk" remote="aosp" />
-<project name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/proguard" groups="pdk" remote="aosp" />
-<project name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" />
-<project name="platform/external/protobuf" groups="pdk" remote="aosp" />
-<project name="platform/external/qemu-pc-bios" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/qemu" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/regex-re2" groups="pdk" remote="aosp" />
-<project name="platform/external/regex-re2" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/replicaisland" groups="pdk" remote="aosp" />
-<project name="platform/external/replicaisland" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/rmi4utils" groups="pdk" remote="aosp" />
+<project name="platform/external/ppp" remote="aosp" />
+<project name="platform/external/proguard" remote="aosp" />
+<project name="platform/external/protobuf" remote="aosp" />
+<project name="platform/external/qemu" remote="aosp" />
+<project name="platform/external/qemu-pc-bios" remote="aosp" />
+<project name="platform/external/regex-re2" remote="aosp" />
+<project name="platform/external/replicaisland" remote="aosp" />
+<project name="platform/external/rmi4utils" remote="aosp" />
 <project name="platform/external/robolectric" remote="aosp" />
-<project name="platform/external/robolectric" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/roboto-fonts" groups="pdk" remote="aosp" />
-<project name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/rootdev" groups="pdk" remote="aosp" />
-<project name="platform/external/safe-iop" groups="pdk" remote="aosp" />
-<project name="platform/external/scrypt" groups="pdk" remote="aosp" />
-<project name="platform/external/seccomp-tests" groups="pdk" remote="aosp" />
-<project name="platform/external/selinux" groups="pdk" remote="aosp" />
+<project name="platform/external/roboto-fonts" remote="aosp" />
+<project name="platform/external/rootdev" remote="aosp" />
+<project name="platform/external/safe-iop" remote="aosp" />
+<project name="platform/external/scrypt" remote="aosp" />
+<project name="platform/external/seccomp-tests" remote="aosp" />
+<project name="platform/external/selinux" remote="aosp" />
 <project name="platform/external/sfntly" remote="aosp" />
-<project name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/shflags" groups="pdk" remote="aosp" />
+<project name="platform/external/shflags" remote="aosp" />
 <project name="platform/external/sil-fonts" remote="aosp" />
-<project name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/sl4a" groups="pdk" remote="aosp" />
-<project name="platform/external/slf4j" groups="pdk" remote="aosp" />
-<project name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
+<project name="platform/external/skia" remote="aosp" />
+<project name="platform/external/sl4a" remote="aosp" />
+<project name="platform/external/slf4j" remote="aosp" />
 <project name="platform/external/smack" remote="aosp" />
-<project name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
-<project name="platform/external/smali" groups="pdk" remote="aosp" />
-<project name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/snakeyaml" groups="pdk" remote="aosp" />
-<project name="platform/external/sonic" groups="pdk" remote="aosp" />
-<project name="platform/external/sonivox" groups="pdk" remote="aosp" />
-<project name="platform/external/speex" groups="pdk" remote="aosp" />
+<project name="platform/external/smali" remote="aosp" />
+<project name="platform/external/snakeyaml" remote="aosp" />
+<project name="platform/external/sonic" remote="aosp" />
+<project name="platform/external/sonivox" remote="aosp" />
+<project name="platform/external/speex" remote="aosp" />
 <project name="platform/external/spirv-llvm" remote="aosp" />
-<project name="platform/external/sqlite" groups="pdk" remote="aosp" />
-<project name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
-<project name="platform/external/srtp" groups="pdk" remote="aosp" />
-<project name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/stlport" groups="pdk" remote="aosp" />
-<project name="platform/external/strace" groups="pdk" remote="aosp" />
-<project name="platform/external/stressapptest" groups="pdk" remote="aosp" />
-<project name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
+<project name="platform/external/sqlite" remote="aosp" />
+<project name="platform/external/squashfs-tools" remote="aosp" />
+<project name="platform/external/srtp" remote="aosp" />
+<project name="platform/external/stlport" remote="aosp" />
+<project name="platform/external/strace" remote="aosp" />
+<project name="platform/external/stressapptest" remote="aosp" />
 <project name="platform/external/svox" remote="aosp" />
-<project name="platform/external/svox" groups="pdk" remote="aosp" />
-<project name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/swiftshader" groups="pdk" remote="aosp" />
-<project name="platform/external/syslinux" groups="pdk" remote="aosp" />
-<project name="platform/external/tagsoup" groups="pdk" remote="aosp" />
-<project name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
-<project name="platform/external/tcpdump" groups="pdk" remote="aosp" />
-<project name="platform/external/testng" groups="pdk" remote="aosp" />
+<project name="platform/external/swiftshader" remote="aosp" />
+<project name="platform/external/syslinux" remote="aosp" />
+<project name="platform/external/tagsoup" remote="aosp" />
+<project name="platform/external/tcpdump" remote="aosp" />
+<project name="platform/external/testng" remote="aosp" />
 <project name="platform/external/timezonepicker-support" remote="aosp" />
-<project name="platform/external/timezonepicker-support" groups="pdk" remote="aosp" />
-<project name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-<project name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
-<project name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-<project name="platform/external/tlsdate" groups="pdk" remote="aosp" />
+<project name="platform/external/tinyalsa" remote="aosp" />
+<project name="platform/external/tinyxml" remote="aosp" />
+<project name="platform/external/tinyxml2" remote="aosp" />
+<project name="platform/external/tlsdate" remote="aosp" />
 <project name="platform/external/toolchain-utils" remote="aosp" />
-<project name="platform/external/tpm2" groups="pdk" remote="aosp" />
-<project name="platform/external/tremolo" groups="pdk" remote="aosp" />
-<project name="platform/external/unicode" groups="pdk" remote="aosp" />
+<project name="platform/external/tpm2" remote="aosp" />
+<project name="platform/external/tremolo" remote="aosp" />
+<project name="platform/external/unicode" remote="aosp" />
 <project name="platform/external/universal-tween-engine" remote="aosp" />
-<project name="platform/external/v8" groups="pdk" remote="aosp" />
-<project name="platform/external/valgrind" groups="pdk" remote="aosp" />
-<project name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
-<project name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
-<project name="platform/external/vixl" groups="pdk" remote="aosp" />
-<project name="platform/external/vogar" groups="pdk" remote="aosp" />
-<project name="platform/external/volley" groups="pdk" remote="aosp" />
+<project name="platform/external/v8" remote="aosp" />
+<project name="platform/external/valgrind" remote="aosp" />
+<project name="platform/external/vboot_reference" remote="aosp" />
+<project name="platform/external/vixl" remote="aosp" />
+<project name="platform/external/vogar" remote="aosp" />
+<project name="platform/external/volley" remote="aosp" />
 <project name="platform/external/vulkan-validation-layers" remote="aosp" />
-<project name="platform/external/vulkan-validation-layers" groups="pdk" remote="aosp" />
-<project name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
-<project name="platform/external/webrtc" groups="pdk" remote="aosp" />
-<project name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
-<project name="platform/external/wycheproof" groups="pdk" remote="aosp" />
-<project name="platform/external/x264" groups="pdk" remote="aosp" />
-<project name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
-<project name="platform/external/xmlwriter" groups="pdk" remote="aosp" />
-<project name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
-<project name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/yaffs2" groups="pdk" remote="aosp" />
-<project name="platform/external/zopfli" groups="pdk" remote="aosp" />
-<project name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/external/zxing" groups="pdk" remote="aosp" />
-<project name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/hardware/interfaces" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+<project name="platform/external/webp" remote="aosp" />
+<project name="platform/external/webrtc" remote="aosp" />
+<project name="platform/external/wpa_supplicant_8" remote="aosp" />
+<project name="platform/external/wycheproof" remote="aosp" />
+<project name="platform/external/x264" remote="aosp" />
+<project name="platform/external/xmlrpcpp" remote="aosp" />
+<project name="platform/external/xmlwriter" remote="aosp" />
+<project name="platform/external/xmp_toolkit" remote="aosp" />
+<project name="platform/external/yaffs2" remote="aosp" />
+<project name="platform/external/zopfli" remote="aosp" />
+<project name="platform/external/zxing" remote="aosp" />
+<project name="platform/frameworks/compile/libbcc" remote="aosp" />
+<project name="platform/frameworks/compile/mclinker" remote="aosp" />
+<project name="platform/frameworks/compile/slang" remote="aosp" />
+<project name="platform/frameworks/data-binding" remote="aosp" />
+<project name="platform/frameworks/ex" remote="aosp" />
+<project name="platform/frameworks/hardware/interfaces" remote="aosp" />
+<project name="platform/frameworks/minikin" remote="aosp" />
+<project name="platform/frameworks/ml" remote="aosp" />
+<project name="platform/frameworks/multidex" remote="aosp" />
+<project name="platform/frameworks/opt/bitmap" remote="aosp" />
+<project name="platform/frameworks/opt/bluetooth" remote="aosp" />
+<project name="platform/frameworks/opt/calendar" remote="aosp" />
+<project name="platform/frameworks/opt/chips" remote="aosp" />
+<project name="platform/frameworks/opt/colorpicker" remote="aosp" />
+<project name="platform/frameworks/opt/datetimepicker" remote="aosp" />
+<project name="platform/frameworks/opt/emoji" remote="aosp" />
+<project name="platform/frameworks/opt/inputconnectioncommon" remote="aosp" />
+<project name="platform/frameworks/opt/inputmethodcommon" remote="aosp" />
+<project name="platform/frameworks/opt/net/ethernet" remote="aosp" />
+<project name="platform/frameworks/opt/net/ims" remote="aosp" />
+<project name="platform/frameworks/opt/net/voip" remote="aosp" />
+<project name="platform/frameworks/opt/net/wifi" remote="aosp" />
+<project name="platform/frameworks/opt/photoviewer" remote="aosp" />
+<project name="platform/frameworks/opt/setupwizard" remote="aosp" />
+<project name="platform/frameworks/opt/timezonepicker" remote="aosp" />
+<project name="platform/frameworks/opt/vcard" remote="aosp" />
 <project name="platform/frameworks/opt/widget" remote="aosp" />
-<project name="platform/frameworks/rs" groups="pdk" remote="aosp" />
-<project name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/hardware/akm" groups="pdk" remote="aosp" />
-<project name="platform/hardware/broadcom/libbt" groups="pdk" remote="aosp" />
-<project name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
-<project name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
-<project name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/audio_media" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/bootstub" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/libmix" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/libva" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/libva" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/libwsbm" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/omx-components" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/omx-components" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/utils" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
-<project name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
-<project name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
-<project name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
-<project name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
-<project name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" remote="aosp" />
-<project name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
-<project name="platform/hardware/qcom/bootctrl" groups="pdk" remote="aosp" />
-<project name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
-<project name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" remote="aosp" />
-<project name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
-<project name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
-<project name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
-<project name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
-<project name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
-<project name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
-<project name="platform/hardware/ti/omap3" groups="omap3,pdk" remote="aosp" />
-<project name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
-<project name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" remote="aosp" />
-<project name="platform/libcore" groups="pdk" remote="aosp" />
-<project name="platform/libnativehelper" groups="pdk" remote="aosp" />
+<project name="platform/frameworks/rs" remote="aosp" />
+<project name="platform/frameworks/support" remote="aosp" />
+<project name="platform/frameworks/volley" remote="aosp" />
+<project name="platform/frameworks/webview" remote="aosp" />
+<project name="platform/frameworks/wilhelm" remote="aosp" />
+<project name="platform/hardware/akm" remote="aosp" />
+<project name="platform/hardware/broadcom/libbt" remote="aosp" />
+<project name="platform/hardware/broadcom/wlan" remote="aosp" />
+<project name="platform/hardware/google/apf" remote="aosp" />
+<project name="platform/hardware/intel/audio_media" remote="aosp" />
+<project name="platform/hardware/intel/bootstub" remote="aosp" />
+<project name="platform/hardware/intel/common/bd_prov" remote="aosp" />
+<project name="platform/hardware/intel/common/libmix" remote="aosp" />
+<project name="platform/hardware/intel/common/libstagefrighthw" remote="aosp" />
+<project name="platform/hardware/intel/common/libva" remote="aosp" />
+<project name="platform/hardware/intel/common/libwsbm" remote="aosp" />
+<project name="platform/hardware/intel/common/omx-components" remote="aosp" />
+<project name="platform/hardware/intel/common/utils" remote="aosp" />
+<project name="platform/hardware/intel/common/wrs_omxil_core" remote="aosp" />
+<project name="platform/hardware/intel/img/hwcomposer" remote="aosp" />
+<project name="platform/hardware/intel/img/psb_headers" remote="aosp" />
+<project name="platform/hardware/intel/img/psb_video" remote="aosp" />
+<project name="platform/hardware/intel/sensors" remote="aosp" />
+<project name="platform/hardware/invensense" remote="aosp" />
+<project name="platform/hardware/marvell/bt" remote="aosp" />
+<project name="platform/hardware/mediatek" remote="aosp" />
+<project name="platform/hardware/qcom/bootctrl" remote="aosp" />
+<project name="platform/hardware/qcom/msm8960" remote="aosp" />
+<project name="platform/hardware/qcom/msm8994" remote="aosp" />
+<project name="platform/hardware/qcom/msm8x26" remote="aosp" />
+<project name="platform/hardware/qcom/msm8x27" remote="aosp" />
+<project name="platform/hardware/qcom/msm8x74" remote="aosp" />
+<project name="platform/hardware/qcom/msm8x84" remote="aosp" />
+<project name="platform/hardware/ti/omap3" remote="aosp" />
+<project name="platform/hardware/ti/omap4-aah" remote="aosp" />
+<project name="platform/libcore" remote="aosp" />
+<project name="platform/libnativehelper" remote="aosp" />
 <project name="platform/ndk" remote="aosp" />
-<project name="platform/ndk" groups="generic_fs" remote="aosp" />
-<project name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Dialer" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Hvac" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/LensPicker" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/LocalMediaPlayer" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Media" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Messenger" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Overview" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Radio" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Settings" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/Stream" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Car/UserManagement" groups="pdk-fs" remote="aosp" />
+<project name="platform/packages/apps/BasicSmsReceiver" remote="aosp" />
+<project name="platform/packages/apps/Car/Dialer" remote="aosp" />
+<project name="platform/packages/apps/Car/Hvac" remote="aosp" />
+<project name="platform/packages/apps/Car/LatinIME" remote="aosp" />
+<project name="platform/packages/apps/Car/LensPicker" remote="aosp" />
+<project name="platform/packages/apps/Car/libs" remote="aosp" />
+<project name="platform/packages/apps/Car/LocalMediaPlayer" remote="aosp" />
+<project name="platform/packages/apps/Car/Media" remote="aosp" />
+<project name="platform/packages/apps/Car/Messenger" remote="aosp" />
+<project name="platform/packages/apps/Car/Overview" remote="aosp" />
+<project name="platform/packages/apps/Car/Radio" remote="aosp" />
+<project name="platform/packages/apps/Car/Settings" remote="aosp" />
+<project name="platform/packages/apps/Car/Stream" remote="aosp" />
+<project name="platform/packages/apps/Car/SystemUpdater" remote="aosp" />
+<project name="platform/packages/apps/Car/UserManagement" remote="aosp" />
 <project name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
-<project name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp" />
-<project name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
+<project name="platform/packages/apps/Provision" remote="aosp" />
+<project name="platform/packages/apps/RetailDemo" remote="aosp" />
+<project name="platform/packages/apps/Test/connectivity" remote="aosp" />
 <project name="platform/packages/experimental" remote="aosp" />
-<project name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" remote="aosp" />
-<project name="platform/pdk" groups="pdk" remote="aosp" />
+<project name="platform/packages/services/Car" remote="aosp" />
+<project name="platform/packages/services/NetworkRecommendation" remote="aosp" />
+<project name="platform/pdk" remote="aosp" />
 <project name="platform/platform_testing" remote="aosp" />
-<project name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aosp" />
 <project name="platform/prebuilts/abi-dumps/ndk" remote="aosp" />
 <project name="platform/prebuilts/abi-dumps/vndk" remote="aosp" />
 <project name="platform/prebuilts/android-emulator" remote="aosp" />
-<project name="platform/prebuilts/android-emulator" groups="pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/build-tools" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/checkcolor" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/checkstyle" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs,notdefault" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" remote="aosp" />
-<project name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/clang/host/linux-x86" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs,notdefault" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" remote="aosp" />
-<project name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" />
-<project name="platform/prebuilts/deqp" groups="pdk-fs" remote="aosp" />
+<project name="platform/prebuilts/build-tools" remote="aosp" />
+<project name="platform/prebuilts/checkcolor" remote="aosp" />
+<project name="platform/prebuilts/checkstyle" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/3.1" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/3.2" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/arm/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/host/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/host/3.4" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/host/3.5" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/host/3.6" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/mips/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/darwin-x86/x86/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/host/darwin-x86" remote="aosp" />
+<project name="platform/prebuilts/clang/host/linux-x86" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/arm/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/host/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/host/3.4" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/host/3.5" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/host/3.6" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/mips/3.3" remote="aosp" />
+<project name="platform/prebuilts/clang/linux-x86/x86/3.3" remote="aosp" />
+<project name="platform/prebuilts/deqp" remote="aosp" />
 <project name="platform/prebuilts/devtools" remote="aosp" />
-<project name="platform/prebuilts/devtools" groups="pdk-fs" remote="aosp" />
 <project name="platform/prebuilts/eclipse" remote="aosp" />
-<project name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" />
-<project name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" />
+<project name="platform/prebuilts/eclipse-build-deps" remote="aosp" />
+<project name="platform/prebuilts/eclipse-build-depsgithub" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/host/headers" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" />
 <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips,notdefault" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" remote="aosp" />
-<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" />
-<project name="platform/prebuilts/gdb/darwin-x86" groups="darwin" remote="aosp" />
-<project name="platform/prebuilts/gdb/linux-x86" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" remote="aosp" />
-<project name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" remote="aosp" />
-<project name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" remote="aosp" />
-<project name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" remote="aosp" />
-<project name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" />
-<project name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fsgithub" remote="aosp" />
-<project name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/misc" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" />
-<project name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,tradefed" remote="aosp" />
-<project name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" remote="aosp" />
-<project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
-<project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
-<project name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="aosp" />
+<project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="aosp" />
+<project name="platform/prebuilts/gdb/darwin-x86" remote="aosp" />
+<project name="platform/prebuilts/gdb/linux-x86" remote="aosp" />
+<project name="platform/prebuilts/go/darwin-x86" remote="aosp" />
+<project name="platform/prebuilts/go/linux-x86" remote="aosp" />
+<project name="platform/prebuilts/gradle-plugin" remote="aosp" />
+<project name="platform/prebuilts/libs/libedit" remote="aosp" />
+<project name="platform/prebuilts/maven_repo/android" remote="aosp" />
+<project name="platform/prebuilts/maven_repo/bumptech" remote="aosp" />
+<project name="platform/prebuilts/misc" remote="aosp" />
+<project name="platform/prebuilts/ndk" remote="aosp" />
+<project name="platform/prebuilts/ninja/darwin-x86" remote="aosp" />
+<project name="platform/prebuilts/ninja/linux-x86" remote="aosp" />
+<project name="platform/prebuilts/python/darwin-x86/2.7.5" remote="aosp" />
+<project name="platform/prebuilts/python/linux-x86/2.7.5" remote="aosp" />
+<project name="platform/prebuilts/qemu-kernel" remote="aosp" />
 <project name="platform/prebuilts/runtime" remote="aosp" />
-<project name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
-<project name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
+<project name="platform/prebuilts/sdk" remote="aosp" />
+<project name="platform/prebuilts/tools" remote="aosp" />
 <project name="platform/sdk" remote="aosp" />
-<project name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
-<project name="platform/system/chre" groups="pdk" remote="aosp" />
+<project name="platform/system/ca-certificates" remote="aosp" />
+<project name="platform/system/chre" remote="aosp" />
 <project name="platform/system/connectivity/apmanager" remote="aosp" />
 <project name="platform/system/connectivity/dhcp_client" remote="aosp" />
 <project name="platform/system/connectivity/shill" remote="aosp" />
-<project name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
-<project name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
+<project name="platform/system/connectivity/wificond" remote="aosp" />
+<project name="platform/system/connectivity/wifilogd" remote="aosp" />
 <project name="platform/system/firewalld" remote="aosp" />
-<project name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-<project name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
-<project name="platform/system/keymaster" groups="pdk" remote="aosp" />
-<project name="platform/system/libfmq" groups="pdk" remote="aosp" />
-<project name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
-<project name="platform/system/libufdt" groups="pdk" remote="aosp" />
-<project name="platform/system/libvintf" groups="pdk" remote="aosp" />
+<project name="platform/system/gatekeeper" remote="aosp" />
+<project name="platform/system/hwservicemanager" remote="aosp" />
+<project name="platform/system/keymaster" remote="aosp" />
+<project name="platform/system/libfmq" remote="aosp" />
+<project name="platform/system/libhwbinder" remote="aosp" />
+<project name="platform/system/libufdt" remote="aosp" />
+<project name="platform/system/libvintf" remote="aosp" />
 <project name="platform/system/nativepower" remote="aosp" />
 <project name="platform/system/nvram" remote="aosp" />
-<project name="platform/system/security" groups="pdk" remote="aosp" />
-<project name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
+<project name="platform/system/security" remote="aosp" />
+<project name="platform/system/tools/aidl" remote="aosp" />
 <project name="platform/system/tpm" remote="aosp" />
-<project name="platform/system/update_engine" groups="pdk" remote="aosp" />
+<project name="platform/system/update_engine" remote="aosp" />
 <project name="platform/system/weaved" remote="aosp" />
 <project name="platform/system/webservd" remote="aosp" />
-<project name="platform/test/vts-testcase/fuzz" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts-testcase/hal" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts-testcase/kernel" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts-testcase/performance" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts-testcase/security" groups="vts" remote="aosp" />
-<project name="platform/test/vts-testcase/vndk" groups="vts,pdk" remote="aosp" />
-<project name="platform/test/vts" groups="vts,pdk" remote="aosp" />
-<project name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/apksig" groups="pdk,tradefed" remote="aosp" />
-<project name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
-<project name="platform/tools/external/gradle" groups="tools" remote="aosp" />
-<project name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" remote="aosp" />
-<project name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" />
-<project name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
-<project name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" remote="aosp" />
-<project name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-<project name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
-<project name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
-<project name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-<project name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
+<project name="platform/test/vts" remote="aosp" />
+<project name="platform/test/vts-testcase/fuzz" remote="aosp" />
+<project name="platform/test/vts-testcase/hal" remote="aosp" />
+<project name="platform/test/vts-testcase/hal-trace" remote="aosp" />
+<project name="platform/test/vts-testcase/kernel" remote="aosp" />
+<project name="platform/test/vts-testcase/performance" remote="aosp" />
+<project name="platform/test/vts-testcase/security" remote="aosp" />
+<project name="platform/test/vts-testcase/vndk" remote="aosp" />
+<project name="platform/tools/adt/eclipse" remote="aosp" />
+<project name="platform/tools/adt/idea" remote="aosp" />
+<project name="platform/tools/apksig" remote="aosp" />
+<project name="platform/tools/base" remote="aosp" />
+<project name="platform/tools/build" remote="aosp" />
+<project name="platform/tools/emulator" remote="aosp" />
+<project name="platform/tools/external/fat32lib" remote="aosp" />
+<project name="platform/tools/external/gradle" remote="aosp" />
+<project name="platform/tools/idea" remote="aosp" />
+<project name="platform/tools/loganalysis" remote="aosp" />
+<project name="platform/tools/motodev" remote="aosp" />
+<project name="platform/tools/repohooks" remote="aosp" />
+<project name="platform/tools/studio/cloud" remote="aosp" />
+<project name="platform/tools/studio/translation" remote="aosp" />
+<project name="platform/tools/swt" remote="aosp" />
+<project name="platform/tools/test/connectivity" remote="aosp" />
+<project name="platform/tools/tradefederation" remote="aosp" />
+<project name="platform/tools/tradefederation/contrib" remote="aosp" />
 <project name="toolchain/binutils" remote="aosp" />
-<project name="toolchain/binutils" groups="pdk" remote="aosp" />
 <project name="LineageOS/android" remote="github" />
-<project name="LineageOS/android_abi_cpp" groups="pdk" remote="github" />
+<project name="LineageOS/android_abi_cpp" remote="github" />
 <project name="LineageOS/android_art" remote="github" />
-<project name="LineageOS/android_art" groups="pdk" remote="github" />
 <project name="LineageOS/AndroidAsync" remote="github" />
-<project name="LineageOS/android_bionic" groups="pdk" remote="github" />
+<project name="LineageOS/android_bionic" remote="github" />
 <project name="LineageOS/android_bootable_diskinstaller" remote="github" />
 <project name="LineageOS/android_bootable_recovery" remote="github" />
 <project name="LineageOS/android_bootable_recovery-cm" remote="github" />
-<project name="LineageOS/android_bootable_recovery" groups="pdk" remote="github" />
-<project name="LineageOS/android_build_kati" groups="pdk,tradefed" remote="github" />
-<project name="LineageOS/android_build" groups="pdk" remote="github" />
-<project name="LineageOS/android_build" groups="pdk,tradefed" remote="github" />
-<project name="LineageOS/android_build_soong" groups="pdk,tradefed" remote="github" />
-<project name="LineageOS/android_cts" groups="cts,pdk-cw-fs" remote="github" />
+<project name="LineageOS/android_build" remote="github" />
+<project name="LineageOS/android_build_kati" remote="github" />
+<project name="LineageOS/android_build_soong" remote="github" />
+<project name="LineageOS/android_cts" remote="github" />
 <project name="LineageOS/android_dalvik" remote="github" />
-<project name="LineageOS/android_dalvik" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_development" remote="github" />
-<project name="LineageOS/android_development" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_device_common" remote="github" />
-<project name="LineageOS/android_device_common" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_device_generic_arm64" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_generic_common" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_generic_mips" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_generic_x86" groups="pdk" remote="github" />
-<project name="LineageOS/android_device_google_accessory_arduino" groups="device" remote="github" />
-<project name="LineageOS/android_device_google_accessory_demokit" groups="device" remote="github" />
-<project name="LineageOS/android_device_google_atv" groups="device" remote="github" />
-<project name="LineageOS/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="github" />
+<project name="LineageOS/android_device_generic_arm64" remote="github" />
+<project name="LineageOS/android_device_generic_armv7-a-neon" remote="github" />
+<project name="LineageOS/android_device_generic_common" remote="github" />
+<project name="LineageOS/android_device_generic_goldfish" remote="github" />
+<project name="LineageOS/android_device_generic_mips" remote="github" />
+<project name="LineageOS/android_device_generic_x86" remote="github" />
+<project name="LineageOS/android_device_google_accessory_arduino" remote="github" />
+<project name="LineageOS/android_device_google_accessory_demokit" remote="github" />
+<project name="LineageOS/android_device_google_atv" remote="github" />
 <project name="LineageOS/android_device_lineage_sepolicy" remote="github" />
 <project name="LineageOS/android_device_qcom_sepolicy" remote="github" />
-<project name="LineageOS/android_device_sample" groups="device" remote="github" />
-<project name="LineageOS/android_external_aac" groups="pdk" remote="github" />
+<project name="LineageOS/android_device_sample" remote="github" />
+<project name="LineageOS/android_external_aac" remote="github" />
 <project name="LineageOS/android_external_ahbottomnavigation" remote="github" />
 <project name="LineageOS/android_external_android-clat" remote="github" />
-<project name="LineageOS/android_external_android-clat" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_android-mock" remote="github" />
-<project name="LineageOS/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_android-visualizer" remote="github" />
 <project name="LineageOS/android_external_ant-glob" remote="github" />
-<project name="LineageOS/android_external_ant-glob" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_antlr" remote="github" />
 <project name="LineageOS/android_external_ant-wireless_ant_native" remote="github" />
 <project name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" />
 <project name="LineageOS/android_external_ant-wireless_ant_service" remote="github" />
 <project name="LineageOS/android_external_apache-harmony" remote="github" />
 <project name="LineageOS/android_external_apache-http" remote="github" />
-<project name="LineageOS/android_external_apache-http" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_apache-qp" remote="github" />
 <project name="LineageOS/android_external_apache-xml" remote="github" />
 <project name="LineageOS/android_external_arduino" remote="github" />
 <project name="LineageOS/android_external_bash" remote="github" />
-<project name="LineageOS/android_external_bison" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_bison" remote="github" />
 <project name="LineageOS/android_external_blktrace" remote="github" />
-<project name="LineageOS/android_external_bluetooth_bluedroid" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_boringssl" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_bluetooth_bluedroid" remote="github" />
+<project name="LineageOS/android_external_boringssl" remote="github" />
 <project name="LineageOS/android_external_bouncycastle" remote="github" />
-<project name="LineageOS/android_external_bouncycastle" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_brctl" remote="github" />
-<project name="LineageOS/android_external_bsdiff" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_bsdiff" remote="github" />
 <project name="LineageOS/android_external_bson" remote="github" />
 <project name="LineageOS/android_external_busybox" remote="github" />
-<project name="LineageOS/android_external_bzip2" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_bzip2" remote="github" />
 <project name="LineageOS/android_external_cardslib" remote="github" />
-<project name="LineageOS/android_external_checkpolicy" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_checkpolicy" remote="github" />
 <project name="LineageOS/android_external_chromium" remote="github" />
 <project name="LineageOS/android_external_chromium_org" remote="github" />
 <project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" remote="github" />
 <project name="LineageOS/android_external_chromium_org_third_party_openssl" remote="github" />
 <project name="LineageOS/android_external_chromium_org_v8" remote="github" />
-<project name="LineageOS/android_external_chromium-trace" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_chromium-trace" remote="github" />
 <project name="LineageOS/android_external_chromium-webview" remote="github" />
-<project name="LineageOS/android_external_chromium-webview" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_clang" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_clang" remote="github" />
 <project name="LineageOS/android_external_cmsdk-api-coverage" remote="github" />
-<project name="LineageOS/android_external_compiler-rt" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_compiler-rt" remote="github" />
 <project name="LineageOS/android_external_connectivity" remote="github" />
-<project name="LineageOS/android_external_conscrypt" groups="pdk-cw-fs" remote="github" />
+<project name="LineageOS/android_external_conscrypt" remote="github" />
 <project name="LineageOS/android_external_crda" remote="github" />
 <project name="LineageOS/android_external_curl" remote="github" />
 <project name="LineageOS/android_external_cyanogen_UICommon" remote="github" />
-<project name="LineageOS/android_external_deqp" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_external_deqp" remote="github" />
 <project name="LineageOS/android_external_dexmaker" remote="github" />
 <project name="LineageOS/android_external_dhcpcd" remote="github" />
-<project name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_dnsmasq" remote="github" />
 <project name="LineageOS/android_external_doclava" remote="github" />
-<project name="LineageOS/android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_dropbear" remote="github" />
-<project name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_e2fsprogs" remote="github" />
 <project name="LineageOS/android_external_easymock" remote="github" />
 <project name="LineageOS/android_external_ebtables" remote="github" />
 <project name="LineageOS/android_external_eclipse-basebuilder" remote="github" />
 <project name="LineageOS/android_external_eclipse-windowbuilder" remote="github" />
 <project name="LineageOS/android_external_elfutils" remote="github" />
-<project name="LineageOS/android_external_elfutils" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_embunit" remote="github" />
 <project name="LineageOS/android_external_emma" remote="github" />
 <project name="LineageOS/android_external_esd" remote="github" />
 <project name="LineageOS/android_external_exfat" remote="github" />
-<project name="LineageOS/android_external_expat" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_expat" remote="github" />
 <project name="LineageOS/android_external_eyes-free" remote="github" />
 <project name="LineageOS/android_external_f2fs-tools" remote="github" />
-<project name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_fdlibm" remote="github" />
 <project name="LineageOS/android_external_ffmpeg" remote="github" />
-<project name="LineageOS/android_external_flac" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_freetype" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_flac" remote="github" />
+<project name="LineageOS/android_external_freetype" remote="github" />
 <project name="LineageOS/android_external_fsck_msdos" remote="github" />
-<project name="LineageOS/android_external_fsck_msdos" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_fuse" remote="github" />
 <project name="LineageOS/android_external_ganymed-ssh2" remote="github" />
-<project name="LineageOS/android_external_gcc-demangle" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_gcc-demangle" remote="github" />
 <project name="LineageOS/android_external_gello_build" remote="github" />
 <project name="LineageOS/android_external_genext2fs" remote="github" />
 <project name="LineageOS/android_external_giflib" remote="github" />
 <project name="LineageOS/android_external_gmock" remote="github" />
 <project name="LineageOS/android_external_google" remote="github" />
 <project name="LineageOS/android_external_google-diff-match-patch" remote="github" />
-<project name="LineageOS/android_external_gptfdisk" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_gptfdisk" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_external_gptfdisk" remote="github" />
 <project name="LineageOS/android_external_grub" remote="github" />
 <project name="LineageOS/android_external_gson" remote="github" />
-<project name="LineageOS/android_external_gtest" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_gtest" remote="github" />
 <project name="LineageOS/android_external_guava" remote="github" />
-<project name="LineageOS/android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_hamcrest" remote="github" />
 <project name="LineageOS/android_external_harfbuzz" remote="github" />
 <project name="LineageOS/android_external_heimdall" remote="github" />
 <project name="LineageOS/android_external_htop" remote="github" />
 <project name="LineageOS/android_external_hyphenation" remote="github" />
-<project name="LineageOS/android_external_icu4c" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_icu" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_iproute2" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_icu" remote="github" />
+<project name="LineageOS/android_external_icu4c" remote="github" />
+<project name="LineageOS/android_external_iproute2" remote="github" />
 <project name="LineageOS/android_external_ipsec-tools" remote="github" />
-<project name="LineageOS/android_external_ipsec-tools" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_iptables" remote="github" />
-<project name="LineageOS/android_external_iptables" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_iptables" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_jack" remote="github" />
 <project name="LineageOS/android_external_JakeWharton_butterknife" remote="github" />
-<project name="LineageOS/android_external_jarjar" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_jarjar" remote="github" />
 <project name="LineageOS/android_external_javasqlite" remote="github" />
 <project name="LineageOS/android_external_javassist" remote="github" />
 <project name="LineageOS/android_external_jdiff" remote="github" />
-<project name="LineageOS/android_external_jemalloc" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_jhead" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_jemalloc" remote="github" />
+<project name="LineageOS/android_external_jhead" remote="github" />
 <project name="LineageOS/android_external_jmdns" remote="github" />
 <project name="LineageOS/android_external_jmonkeyengine" remote="github" />
-<project name="LineageOS/android_external_jpeg" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_jpeg" remote="github" />
 <project name="LineageOS/android_external_jsilver" remote="github" />
 <project name="LineageOS/android_external_json-c" remote="github" />
 <project name="LineageOS/android_external_jsr305" remote="github" />
-<project name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,tradefed" remote="github" />
 <project name="LineageOS/android_external_jsr308" remote="github" />
 <project name="LineageOS/android_external_jsr330" remote="github" />
 <project name="LineageOS/android_external_junit" remote="github" />
 <project name="LineageOS/android_external_kernel-headers" remote="github" />
 <project name="LineageOS/android_external_kissfft" remote="github" />
-<project name="LineageOS/android_external_libavc" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libavc" remote="github" />
 <project name="LineageOS/android_external_libcap-ng" remote="github" />
-<project name="LineageOS/android_external_libchrome" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libchrome" remote="github" />
 <project name="LineageOS/android_external_libffi" remote="github" />
-<project name="LineageOS/android_external_libgsm" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libhevc" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libhevc" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_external_liblzf" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libgsm" remote="github" />
+<project name="LineageOS/android_external_libhevc" remote="github" />
+<project name="LineageOS/android_external_liblzf" remote="github" />
+<project name="LineageOS/android_external_libmpeg2" remote="github" />
 <project name="LineageOS/android_external_libmtp" remote="github" />
 <project name="LineageOS/android_external_libncurses" remote="github" />
 <project name="LineageOS/android_external_libnetfilter_conntrack" remote="github" />
-<project name="LineageOS/android_external_libnetfilter_conntrack" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libnfc-nci" remote="github" />
 <project name="LineageOS/android_external_libnfc-nxp" remote="github" />
-<project name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_libnfnetlink" remote="github" />
-<project name="LineageOS/android_external_libnfnetlink" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libnl-headers" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libnl" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libnl" remote="github" />
+<project name="LineageOS/android_external_libnl-headers" remote="github" />
 <project name="LineageOS/android_external_libogg" remote="github" />
 <project name="LineageOS/android_external_libpcap" remote="github" />
 <project name="LineageOS/android_external_libphonenumber" remote="github" />
 <project name="LineageOS/android_external_libphonenumbergoogle" remote="github" />
-<project name="LineageOS/android_external_libpng" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libpng" remote="github" />
 <project name="LineageOS/android_external_libppp" remote="github" />
-<project name="LineageOS/android_external_libselinux" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_libsepol" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libselinux" remote="github" />
+<project name="LineageOS/android_external_libsepol" remote="github" />
 <project name="LineageOS/android_external_libtar" remote="github" />
 <project name="LineageOS/android_external_libtruezip" remote="github" />
 <project name="LineageOS/android_external_libusb" remote="github" />
 <project name="LineageOS/android_external_libusb-compat" remote="github" />
-<project name="LineageOS/android_external_libusb" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_libusb" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_libusbx" remote="github" />
 <project name="LineageOS/android_external_libvorbis" remote="github" />
-<project name="LineageOS/android_external_libvpx" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_libvpx" remote="github" />
 <project name="LineageOS/android_external_libvterm" remote="github" />
-<project name="LineageOS/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_libxml2" remote="github" />
-<project name="LineageOS/android_external_libxml2" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" />
 <project name="LineageOS/android_external_libxslt" remote="github" />
-<project name="LineageOS/android_external_libyuv" groups="libyuv" remote="github" />
+<project name="LineageOS/android_external_libyuv" remote="github" />
 <project name="LineageOS/android_external_linux-tools-perf" remote="github" />
-<project name="LineageOS/android_external_linux-tools-perf" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_littlemock" remote="github" />
-<project name="LineageOS/android_external_llvm" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_llvm" remote="github" />
 <project name="LineageOS/android_external_lsof" remote="github" />
 <project name="LineageOS/android_external_lz4" remote="github" />
-<project name="LineageOS/android_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_lzma" remote="github" />
-<project name="LineageOS/android_external_lzma" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_lzo" remote="github" />
 <project name="LineageOS/android_external_markdown" remote="github" />
-<project name="LineageOS/android_external_mdnsresponder" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_mksh" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_mdnsresponder" remote="github" />
+<project name="LineageOS/android_external_mksh" remote="github" />
 <project name="LineageOS/android_external_mockwebserver" remote="github" />
 <project name="LineageOS/android_external_mp4parser" remote="github" />
 <project name="LineageOS/android_external_mtpd" remote="github" />
@@ -1095,245 +797,170 @@
 <project name="LineageOS/android_external_netperf" remote="github" />
 <project name="LineageOS/android_external_neven" remote="github" />
 <project name="LineageOS/android_external_nist-sip" remote="github" />
-<project name="LineageOS/android_external_nist-sip" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_ntfs-3g" remote="github" />
 <project name="LineageOS/android_external_oauth" remote="github" />
 <project name="LineageOS/android_external_okhttp" remote="github" />
-<project name="LineageOS/android_external_okhttp" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_external_okhttp" groups="pdk-cw-fw" remote="github" />
 <project name="LineageOS/android_external_opencv" remote="github" />
 <project name="LineageOS/android_external_openfst" remote="github" />
 <project name="LineageOS/android_external_openssh" remote="github" />
-<project name="LineageOS/android_external_openssh" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_openssl" remote="github" />
-<project name="LineageOS/android_external_openssl" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_oprofile" remote="github" />
 <project name="LineageOS/android_external_p7zip" remote="github" />
 <project name="LineageOS/android_external_pciutils" remote="github" />
-<project name="LineageOS/android_external_pcre" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_pcre" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_pdfium" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_pcre" remote="github" />
+<project name="LineageOS/android_external_pdfium" remote="github" />
 <project name="LineageOS/android_external_pigz" remote="github" />
 <project name="LineageOS/android_external_powertop" remote="github" />
 <project name="LineageOS/android_external_ppp" remote="github" />
-<project name="LineageOS/android_external_proguard" groups="pdk-java" remote="github" />
+<project name="LineageOS/android_external_proguard" remote="github" />
+<project name="LineageOS/android_external_protobuf" remote="github" />
 <project name="LineageOS/android_external_protobuf-c" remote="github" />
-<project name="LineageOS/android_external_protobuf" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_qemu" remote="github" />
 <project name="LineageOS/android_external_qemu-pc-bios" remote="github" />
 <project name="LineageOS/android_external_qrngd" remote="github" />
 <project name="LineageOS/android_external_regex-re2" remote="github" />
 <project name="LineageOS/android_external_replicaisland" remote="github" />
 <project name="LineageOS/android_external_rsync" remote="github" />
-<project name="LineageOS/android_external_safe-iop" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_selinux" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_sepolicy" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_sfntly" groups="pdk,qcom_msm8x26" remote="github" />
+<project name="LineageOS/android_external_safe-iop" remote="github" />
+<project name="LineageOS/android_external_selinux" remote="github" />
+<project name="LineageOS/android_external_sepolicy" remote="github" />
+<project name="LineageOS/android_external_sfntly" remote="github" />
 <project name="LineageOS/android_external_skia" remote="github" />
-<project name="LineageOS/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" />
-<project name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" />
 <project name="LineageOS/android_external_smali" remote="github" />
-<project name="LineageOS/android_external_sonivox" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_speex" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_spongycastle" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_sqlite" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_sonivox" remote="github" />
+<project name="LineageOS/android_external_speex" remote="github" />
+<project name="LineageOS/android_external_spongycastle" remote="github" />
+<project name="LineageOS/android_external_sqlite" remote="github" />
 <project name="LineageOS/android_external_square_dagger" remote="github" />
 <project name="LineageOS/android_external_square_javawriter" remote="github" />
 <project name="LineageOS/android_external_srec" remote="github" />
 <project name="LineageOS/android_external_srtp" remote="github" />
 <project name="LineageOS/android_external_stagefright-plugins" remote="github" />
-<project name="LineageOS/android_external_stlport" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_stlport" remote="github" />
 <project name="LineageOS/android_external_strace" remote="github" />
-<project name="LineageOS/android_external_strace" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_strace" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_external_stressapptest" remote="github" />
 <project name="LineageOS/android_external_tagsoup" remote="github" />
 <project name="LineageOS/android_external_tcpdump" remote="github" />
-<project name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_external_tinyalsa" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_tinyxml2" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_tinyxml" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_toybox" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_tremolo" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_tinyalsa" remote="github" />
+<project name="LineageOS/android_external_tinycompress" remote="github" />
+<project name="LineageOS/android_external_tinyxml" remote="github" />
+<project name="LineageOS/android_external_tinyxml2" remote="github" />
+<project name="LineageOS/android_external_toybox" remote="github" />
+<project name="LineageOS/android_external_tremolo" remote="github" />
 <project name="LineageOS/android_external_unrar" remote="github" />
 <project name="LineageOS/android_external_unzip" remote="github" />
 <project name="LineageOS/android_external_v8" remote="github" />
-<project name="LineageOS/android_external_valgrind" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_valgrind" remote="github" />
 <project name="LineageOS/android_external_vim" remote="github" />
-<project name="LineageOS/android_external_vogar" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_vogar" remote="github" />
 <project name="LineageOS/android_external_webp" remote="github" />
-<project name="LineageOS/android_external_webrtc" groups="pdk" remote="github" />
-<project name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_webrtc" remote="github" />
+<project name="LineageOS/android_external_wpa_supplicant_8" remote="github" />
 <project name="LineageOS/android_external_wpa_supplicant_8_ti" remote="github" />
 <project name="LineageOS/android_external_xmlwriter" remote="github" />
 <project name="LineageOS/android_external_xmp_toolkit" remote="github" />
 <project name="LineageOS/android_external_yaffs2" remote="github" />
-<project name="LineageOS/android_external_yaffs2" groups="pdk" remote="github" />
 <project name="LineageOS/android_external_zip" remote="github" />
-<project name="LineageOS/android_external_zlib" groups="pdk" remote="github" />
+<project name="LineageOS/android_external_zlib" remote="github" />
 <project name="LineageOS/android_external_zxing" remote="github" />
-<project name="LineageOS/android_frameworks_av" groups="pdk" remote="github" />
+<project name="LineageOS/android_frameworks_av" remote="github" />
 <project name="LineageOS/android_frameworks_base" remote="github" />
-<project name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" remote="github" />
-<project name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" remote="github" />
-<project name="LineageOS/android_frameworks_compile_slang" groups="pdk" remote="github" />
+<project name="LineageOS/android_frameworks_compile_libbcc" remote="github" />
+<project name="LineageOS/android_frameworks_compile_mclinker" remote="github" />
+<project name="LineageOS/android_frameworks_compile_slang" remote="github" />
 <project name="LineageOS/android_frameworks_ex" remote="github" />
-<project name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_mff" remote="github" />
-<project name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_frameworks_minikin" remote="github" />
 <project name="LineageOS/android_frameworks_ml" remote="github" />
-<project name="LineageOS/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_native" groups="pdk" remote="github" />
+<project name="LineageOS/android_frameworks_multidex" remote="github" />
+<project name="LineageOS/android_frameworks_native" remote="github" />
 <project name="LineageOS/android_frameworks_opt_bitmap" remote="github" />
-<project name="LineageOS/android_frameworks_opt_bitmap" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_frameworks_opt_bluetooth" remote="github" />
 <project name="LineageOS/android_frameworks_opt_calendar" remote="github" />
-<project name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_carddav" remote="github" />
-<project name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_frameworks_opt_chips" remote="github" />
 <project name="LineageOS/android_frameworks_opt_colorpicker" remote="github" />
-<project name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_datetimepicker" remote="github" />
-<project name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_emoji" remote="github" />
-<project name="LineageOS/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_hardware" remote="github" />
 <project name="LineageOS/android_frameworks_opt_inputmethodcommon" remote="github" />
-<project name="LineageOS/android_frameworks_opt_inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_mailcommon" remote="github" />
 <project name="LineageOS/android_frameworks_opt_mms" remote="github" />
 <project name="LineageOS/android_frameworks_opt_net_ethernet" remote="github" />
-<project name="LineageOS/android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_frameworks_opt_net_ims" remote="github" />
 <project name="LineageOS/android_frameworks_opt_net_voip" remote="github" />
-<project name="LineageOS/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="github" />
+<project name="LineageOS/android_frameworks_opt_net_wifi" remote="github" />
 <project name="LineageOS/android_frameworks_opt_photoviewer" remote="github" />
-<project name="LineageOS/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" remote="github" />
-<project name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_frameworks_opt_setupwizard" remote="github" />
+<project name="LineageOS/android_frameworks_opt_telephony" remote="github" />
 <project name="LineageOS/android_frameworks_opt_telephony-msim" remote="github" />
-<project name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" />
 <project name="LineageOS/android_frameworks_opt_timezonepicker" remote="github" />
-<project name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_opt_vcard" remote="github" />
-<project name="LineageOS/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_frameworks_rs" groups="pdk" remote="github" />
+<project name="LineageOS/android_frameworks_rs" remote="github" />
 <project name="LineageOS/android_frameworks_support" remote="github" />
-<project name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_testing" remote="github" />
 <project name="LineageOS/android_frameworks_volley" remote="github" />
-<project name="LineageOS/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_webview" remote="github" />
-<project name="LineageOS/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_frameworks_wilhelm" remote="github" />
-<project name="LineageOS/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_hardware_akm" remote="github" />
-<project name="LineageOS/android_hardware_akm" groups="pdk" remote="github" />
-<project name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" />
-<project name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" />
-<project name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" />
+<project name="LineageOS/android_hardware_broadcom_libbt" remote="github" />
+<project name="LineageOS/android_hardware_broadcom_wlan" remote="github" />
 <project name="LineageOS/android_hardware_cm" remote="github" />
 <project name="LineageOS/android_hardware_cyanogen" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libmix" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libmix" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libva" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libva" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_omx-components" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_omx-components" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_common_utils" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_libdrm" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" remote="github" />
-<project name="LineageOS/android_hardware_intel_img_psb_video" groups="intel,pdk" remote="github" />
-<project name="LineageOS/android_hardware_interfaces" groups="pdk" remote="github" />
-<project name="LineageOS/android_hardware_invensense" groups="invensense" remote="github" />
-<project name="LineageOS/android_hardware_invensense" groups="invensense,pdk" remote="github" />
-<project name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" />
-<project name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" />
+<project name="LineageOS/android_hardware_intel_common_libmix" remote="github" />
+<project name="LineageOS/android_hardware_intel_common_libva" remote="github" />
+<project name="LineageOS/android_hardware_intel_common_libwsbm" remote="github" />
+<project name="LineageOS/android_hardware_intel_common_omx-components" remote="github" />
+<project name="LineageOS/android_hardware_intel_common_utils" remote="github" />
+<project name="LineageOS/android_hardware_intel_img_hwcomposer" remote="github" />
+<project name="LineageOS/android_hardware_intel_img_libdrm" remote="github" />
+<project name="LineageOS/android_hardware_intel_img_psb_headers" remote="github" />
+<project name="LineageOS/android_hardware_intel_img_psb_video" remote="github" />
+<project name="LineageOS/android_hardware_interfaces" remote="github" />
+<project name="LineageOS/android_hardware_invensense" remote="github" />
+<project name="LineageOS/android_hardware_libhardware" remote="github" />
+<project name="LineageOS/android_hardware_libhardware_legacy" remote="github" />
 <project name="LineageOS/android_hardware_lineage_interfaces" remote="github" />
-<project name="LineageOS/android_hardware_nvidia_audio" groups="nvidia_audio" remote="github" />
-<project name="LineageOS/android_hardware_nvidia_tegra124" groups="tegra124" remote="github" />
-<project name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" remote="github" />
-<project name="LineageOS/android_hardware_qcom_audio" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" />
-<project name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_camera" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_display-caf" groups="caf" remote="github" />
-<project name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" />
-<project name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" />
-<project name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" />
-<project name="LineageOS/android_hardware_qcom_gps" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" />
-<project name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_keymaster" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" />
-<project name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_media-caf" groups="caf" remote="github" />
-<project name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" />
-<project name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" />
-<project name="LineageOS/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" />
-<project name="LineageOS/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" remote="github" />
+<project name="LineageOS/android_hardware_nvidia_audio" remote="github" />
+<project name="LineageOS/android_hardware_nvidia_tegra124" remote="github" />
+<project name="LineageOS/android_hardware_qcom_audio" remote="github" />
+<project name="LineageOS/android_hardware_qcom_audio-caf" remote="github" />
+<project name="LineageOS/android_hardware_qcom_bootctrl" remote="github" />
+<project name="LineageOS/android_hardware_qcom_bt" remote="github" />
+<project name="LineageOS/android_hardware_qcom_camera" remote="github" />
+<project name="LineageOS/android_hardware_qcom_display" remote="github" />
+<project name="LineageOS/android_hardware_qcom_display-caf" remote="github" />
+<project name="LineageOS/android_hardware_qcom_fm" remote="github" />
+<project name="LineageOS/android_hardware_qcom_gps" remote="github" />
+<project name="LineageOS/android_hardware_qcom_keymaster" remote="github" />
+<project name="LineageOS/android_hardware_qcom_media" remote="github" />
+<project name="LineageOS/android_hardware_qcom_media-caf" remote="github" />
+<project name="LineageOS/android_hardware_qcom_msm8960" remote="github" />
+<project name="LineageOS/android_hardware_qcom_msm8x74" remote="github" />
 <project name="LineageOS/android_hardware_qcom_power" remote="github" />
 <project name="LineageOS/android_hardware_qcom_sensors" remote="github" />
 <project name="LineageOS/android_hardware_qcom_wlan" remote="github" />
-<project name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" />
-<project name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" />
-<project name="LineageOS/android_hardware_ril" groups="pdk" remote="github" />
+<project name="LineageOS/android_hardware_ril" remote="github" />
 <project name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" />
 <project name="LineageOS/android_hardware_ti_omap3" remote="github" />
 <project name="LineageOS/android_hardware_ti_omap4" remote="github" />
 <project name="LineageOS/android_hardware_ti_omap4xxx" remote="github" />
-<project name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4" remote="github" />
-<project name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4,pdk" remote="github" />
 <project name="LineageOS/android_hardware_ti_wlan" remote="github" />
 <project name="LineageOS/android_hardware_ti_wpan" remote="github" />
 <project name="LineageOS/android_libcore" remote="github" />
-<project name="LineageOS/android_libcore" groups="pdk" remote="github" />
-<project name="LineageOS/android_libnativehelper" groups="pdk" remote="github" />
-<project name="LineageOS/android_libnativehelper" groups="pdk-java" remote="github" />
+<project name="LineageOS/android_libnativehelper" remote="github" />
 <project name="LineageOS/android_packages_apps_Apollo" remote="github" />
 <project name="LineageOS/android_packages_apps_AudioFX" remote="github" />
 <project name="LineageOS/android_packages_apps_BasicSmsReceiver" remote="github" />
-<project name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Bluetooth" remote="github" />
 <project name="LineageOS/android_packages_apps_BluetoothExt" remote="github" />
-<project name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Browser" remote="github" />
-<project name="LineageOS/android_packages_apps_Browser" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Calculator" remote="github" />
 <project name="LineageOS/android_packages_apps_Calendar" remote="github" />
-<project name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Camera2" remote="github" />
-<project name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_apps_CarrierConfig" remote="github" />
 <project name="LineageOS/android_packages_apps_CellBroadcastReceiver" remote="github" />
-<project name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_CertInstaller" remote="github" />
-<project name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_CMAccount" remote="github" />
 <project name="LineageOS/android_packages_apps_CMBugreport" remote="github" />
 <project name="LineageOS/android_packages_apps_CMFileManager" remote="github" />
@@ -1343,179 +970,125 @@
 <project name="LineageOS/android_packages_apps_CMWallpapers" remote="github" />
 <project name="LineageOS/android_packages_apps_Contacts" remote="github" />
 <project name="LineageOS/android_packages_apps_ContactsCommon" remote="github" />
-<project name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_DeskClock" remote="github" />
-<project name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Dialer" remote="github" />
-<project name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_apps_DocumentsUI" remote="github" />
 <project name="LineageOS/android_packages_apps_DSPManager" remote="github" />
 <project name="LineageOS/android_packages_apps_Eleven" remote="github" />
 <project name="LineageOS/android_packages_apps_Email" remote="github" />
-<project name="LineageOS/android_packages_apps_Email" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_apps_EmergencyInfo" remote="github" />
+<project name="LineageOS/android_packages_apps_ExactCalculator" remote="github" />
 <project name="LineageOS/android_packages_apps_Exchange" remote="github" />
-<project name="LineageOS/android_packages_apps_Exchange" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_FMRadio" remote="github" />
-<project name="LineageOS/android_packages_apps_FMRadio" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Gallery2" remote="github" />
-<project name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Gello" remote="github" />
 <project name="LineageOS/android_packages_apps_HTMLViewer" remote="github" />
-<project name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_InCallUI" remote="github" />
-<project name="LineageOS/android_packages_apps_InCallUI" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Jelly" remote="github" />
 <project name="LineageOS/android_packages_apps_KeyChain" remote="github" />
-<project name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_LockClock" remote="github" />
 <project name="LineageOS/android_packages_apps_ManagedProvisioning" remote="github" />
-<project name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_apps_Messaging" remote="github" />
 <project name="LineageOS/android_packages_apps_Mms-caf" remote="github" />
 <project name="LineageOS/android_packages_apps_Nfc" remote="github" />
-<project name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" remote="github" />
 <project name="LineageOS/android_packages_apps_PackageInstaller" remote="github" />
-<project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_PhoneCommon" remote="github" />
-<project name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Profiles" remote="github" />
 <project name="LineageOS/android_packages_apps_Provision" remote="github" />
-<project name="LineageOS/android_packages_apps_Provision" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Recorder" remote="github" />
 <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" remote="github" />
-<project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Screencast" remote="github" />
 <project name="LineageOS/android_packages_apps_Settings" remote="github" />
-<project name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_Settings" groups="pdk-fsgithub" remote="github" />
 <project name="LineageOS/android_packages_apps_SetupWizard" remote="github" />
 <project name="LineageOS/android_packages_apps_SmartCardService" remote="github" />
-<project name="LineageOS/android_packages_apps_SmartCardService" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Snap" remote="github" />
 <project name="LineageOS/android_packages_apps_SoundRecorder" remote="github" />
-<project name="LineageOS/android_packages_apps_SoundRecorder" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_SpeechRecorder" remote="github" />
 <project name="LineageOS/android_packages_apps_Stk" remote="github" />
-<project name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_apps_StorageManager" remote="github" />
 <project name="LineageOS/android_packages_apps_Tag" remote="github" />
-<project name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Terminal" remote="github" />
-<project name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_apps_Terminal" groups="pdk-fsgithub" remote="github" />
 <project name="LineageOS/android_packages_apps_ThemeChooser" remote="github" />
 <project name="LineageOS/android_packages_apps_Torch" remote="github" />
 <project name="LineageOS/android_packages_apps_Trebuchet" remote="github" />
 <project name="LineageOS/android_packages_apps_TV" remote="github" />
 <project name="LineageOS/android_packages_apps_TvSettings" remote="github" />
-<project name="LineageOS/android_packages_apps_TvSettings" groups="generic_fs" remote="github" />
-<project name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_UnifiedEmail" remote="github" />
-<project name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_Updater" remote="github" />
 <project name="LineageOS/android_packages_apps_VideoEditor" remote="github" />
 <project name="LineageOS/android_packages_apps_VoiceDialer" remote="github" />
 <project name="LineageOS/android_packages_apps_VoicePlus" remote="github" />
 <project name="LineageOS/android_packages_apps_WallpaperPicker" remote="github" />
-<project name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" remote="github" />
 <project name="LineageOS/android_packages_apps_YahooWeatherProvider" remote="github" />
 <project name="LineageOS/android_packages_experimental" remote="github" />
 <project name="LineageOS/android_packages_inputmethods_LatinIME" remote="github" />
-<project name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_inputmethods_OpenWnn" remote="github" />
 <project name="LineageOS/android_packages_inputmethods_PinyinIME" remote="github" />
 <project name="LineageOS/android_packages_providers_ApplicationsProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_providers_BlockedNumberProvider" remote="github" />
+<project name="LineageOS/android_packages_providers_BookmarkProvider" remote="github" />
 <project name="LineageOS/android_packages_providers_CalendarProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_providers_CallLogProvider" remote="github" />
 <project name="LineageOS/android_packages_providers_ContactsProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_DataUsageProvider" remote="github" />
 <project name="LineageOS/android_packages_providers_DownloadProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_MediaProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_TelephonyProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_ThemesProvider" remote="github" />
 <project name="LineageOS/android_packages_providers_TvProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_UserDictionaryProvider" remote="github" />
-<project name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_providers_WeatherProvider" remote="github" />
 <project name="LineageOS/android_packages_screensavers_Basic" remote="github" />
-<project name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_screensavers_PhotoTable" remote="github" />
-<project name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_screensavers_WebView" remote="github" />
-<project name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_services_BuiltInPrintService" remote="github" />
+<project name="LineageOS/android_packages_services_Car" remote="github" />
 <project name="LineageOS/android_packages_services_CMAudioService" remote="github" />
-<project name="LineageOS/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_services_LiveLockScreenService" remote="github" />
 <project name="LineageOS/android_packages_services_Mms" remote="github" />
-<project name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_services_Telecomm" remote="github" />
-<project name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_services_Telephony" remote="github" />
-<project name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="github" />
+<project name="LineageOS/android_packages_services_ThemeManagerService" remote="github" />
 <project name="LineageOS/android_packages_services_WeatherService" remote="github" />
-<project name="LineageOS/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" remote="github" />
-<project name="LineageOS/android_packages_themes_HexoLibre" groups="themes" remote="github" />
+<project name="LineageOS/android_packages_themes_HexoLibre" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_Basic" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_Basic" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_Galaxy4" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_Galaxy4" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_HoloSpiral" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_LivePicker" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_MagicSmoke" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_MagicSmoke" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_MusicVisualization" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_NoiseField" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_NoiseField" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_PhaseBeam" remote="github" />
-<project name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" remote="github" />
 <project name="LineageOS/android_packages_wallpapers_PhotoPhase" remote="github" />
 <project name="LineageOS/android_prebuilt" remote="github" />
 <project name="LineageOS/android_prebuilts_cmsdk" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="github" />
-<project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="github" />
-<project name="LineageOS/android_prebuilts_misc" groups="pdk" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9github" remote="github" />
+<project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="github" />
+<project name="LineageOS/android_prebuilts_misc" remote="github" />
 <project name="LineageOS/android_sdk" remote="github" />
-<project name="LineageOS/android_system_bt" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_core" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_extras" groups="pdk" remote="github" />
+<project name="LineageOS/android_system_bt" remote="github" />
+<project name="LineageOS/android_system_core" remote="github" />
+<project name="LineageOS/android_system_extras" remote="github" />
 <project name="LineageOS/android_system_extras_su" remote="github" />
-<project name="LineageOS/android_system_hardware_interfaces" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_keymaster" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_libhidl" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_media" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_netd" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_nfc" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_qcom" groups="qcom" remote="github" />
-<project name="LineageOS/android_system_security" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_sepolicy" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_tools_aidl" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" />
-<project name="LineageOS/android_system_vold" groups="pdk" remote="github" />
+<project name="LineageOS/android_system_hardware_interfaces" remote="github" />
+<project name="LineageOS/android_system_keymaster" remote="github" />
+<project name="LineageOS/android_system_libhidl" remote="github" />
+<project name="LineageOS/android_system_media" remote="github" />
+<project name="LineageOS/android_system_netd" remote="github" />
+<project name="LineageOS/android_system_nfc" remote="github" />
+<project name="LineageOS/android_system_qcom" remote="github" />
+<project name="LineageOS/android_system_security" remote="github" />
+<project name="LineageOS/android_system_sepolicy" remote="github" />
+<project name="LineageOS/android_system_tools_aidl" remote="github" />
+<project name="LineageOS/android_system_tools_hidl" remote="github" />
+<project name="LineageOS/android_system_vold" remote="github" />
 <project name="LineageOS/android_vendor_cm" remote="github" />
 <project name="LineageOS/android_vendor_codeaurora_telephony" remote="github" />
 <project name="LineageOS/android_vendor_lineage" remote="github" />
@@ -1525,22 +1098,22 @@
 <project name="LineageOS/android_vendor_qcom_opensource_dpm" remote="github" />
 <project name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" />
 <project name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" />
-<project name="LineageOS/ansible" groups="infra" remote="github" />
-<project name="LineageOS/cm_crowdin" groups="infra" remote="github" />
+<project name="LineageOS/ansible" remote="github" />
+<project name="LineageOS/cm_crowdin" remote="github" />
 <project name="LineageOS/cm_platform_sdk" remote="github" />
-<project name="LineageOS/contributors-cloud-generator" groups="tools" remote="github" />
-<project name="LineageOS/cve_tracker" groups="infra" remote="github" />
+<project name="LineageOS/contributors-cloud-generator" remote="github" />
+<project name="LineageOS/cve_tracker" remote="github" />
 <project name="LineageOS/external_android_support-prebuilt" remote="github" />
-<project name="LineageOS/hudson" groups="infra" remote="github" />
+<project name="LineageOS/hudson" remote="github" />
 <project name="LineageOS/ion" remote="github" />
-<project name="LineageOS/lineageos_updater" groups="infra" remote="github" />
-<project name="LineageOS/lineage_wiki" groups="infra" remote="github" />
-<project name="LineageOS/mirror" groups="infra" remote="github" />
-<project name="LineageOS/scripts" groups="tools" remote="github" />
-<project name="LineageOS/slackbot" groups="infra" remote="github" />
+<project name="LineageOS/lineageos_updater" remote="github" />
+<project name="LineageOS/lineage_wiki" remote="github" />
+<project name="LineageOS/mirror" remote="github" />
+<project name="LineageOS/scripts" remote="github" />
+<project name="LineageOS/slackbot" remote="github" />
 <project name="LineageOS/Superuser" remote="github" />
-<project name="LineageOS/tribble-tracker" groups="infra" remote="github" />
+<project name="LineageOS/tribble-tracker" remote="github" />
 <project name="LineageOS/Widgets" remote="github" />
-<project name="LineageOS/www" groups="infra" remote="github" />
+<project name="LineageOS/www" remote="github" />
 
 </manifest>
