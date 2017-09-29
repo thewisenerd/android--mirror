@@ -39,7 +39,7 @@ def main():
 			else:
 				remote = atype.get('remote')
 			name = atype.get('name')
-			print("%s\t%s" % (remote, name))
+			print("%s\t%s\n" % (remote, name))
 
 		for atype in e.findall('include'):
 			importFILE = os.path.dirname(os.getcwd() + os.path.sep + file) + os.path.sep + atype.get('name')
