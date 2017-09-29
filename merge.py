@@ -24,7 +24,8 @@ def main():
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default remote="github"
+  <default revision="refs/heads/*"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
@@ -40,11 +41,7 @@ def main():
 			sp=[w.strip() for w in line.split('\t')]
 			remote = sp[0].strip()
 			name = sp[1].strip()
-			groups = sp[2].strip()
-			if (groups == ''):
-				print('<project name="%s" remote="%s" />' % (name, remote))
-			else:
-				print('<project name="%s" groups="%s" remote="%s" />' % (name, groups, remote))
+			print('<project name="%s" remote="%s" />' % (name, remote))
 
 	footer = '''\
 
