@@ -43,7 +43,7 @@ def main():
 
 		for atype in e.findall('include'):
 			importFILE = os.path.dirname(os.getcwd() + os.path.sep + file) + os.path.sep + atype.get('name')
-			call(["python", "parse.py", importFILE])
+			call(["python", "scripts/parse.py", importFILE])
 
 if __name__ == '__main__':
 	main()
