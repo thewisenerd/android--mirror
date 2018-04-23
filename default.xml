@@ -277,6 +277,7 @@
 <project name="platform/external/mp4parser" remote="aosp" />
 <project name="platform/external/mtpd" remote="aosp" />
 <project name="platform/external/nanohttpd" remote="aosp" />
+<project name="platform/external/nanopb-c" remote="aosp" />
 <project name="platform/external/naver-fonts" remote="aosp" />
 <project name="platform/external/netcat" remote="aosp" />
 <project name="platform/external/netperf" remote="aosp" />
