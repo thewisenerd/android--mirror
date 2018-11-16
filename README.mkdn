@@ -27,6 +27,7 @@ branches
  - cm-13.0
  - cm-14.1
  - lineage-15.1
+ - lineage-16.0
 
 updating
 --------
